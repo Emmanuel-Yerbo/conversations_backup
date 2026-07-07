@@ -4,9 +4,10 @@
     "title": "I WANT YOU TO COME UP WITH A SOLID PLAN TO CREATE A REPO ...",
     "summary": "I WANT YOU TO COME UP WITH A SOLID PLAN TO CREATE A REPO FOR STORING ALL MY CONVERSTION WITH YOU (CONVERSATION HISTORY)",
     "created_at": "2026-07-07T03:18:29Z",
-    "updated_at": "2026-07-07T03:44:22Z",
-    "message_count": 122,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "updated_at": "2026-07-07T03:47:44Z",
+    "message_count": 139,
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": []
   },
   {
     "id": "ad6d50a9-2e40-46d8-844c-61d07388fc96",
@@ -15,7 +16,105 @@
     "created_at": "2026-05-21T01:52:42Z",
     "updated_at": "2026-07-06T16:27:18Z",
     "message_count": 706,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "acci_fellowship_details_1776476092516.webp",
+      "acci_website_review_1776476462511.webp",
+      "CHAPTER4_UPDATE_SCHEME.md",
+      "CHAPTER4_UPDATE_SCHEME.md.metadata.json",
+      "CHAPTER4_UPDATE_SCHEME.md.resolved",
+      "CHAPTER4_UPDATE_SCHEME.md.resolved.0",
+      "CHAPTER5_AUDIT_REPORT.md",
+      "CHAPTER5_AUDIT_REPORT.md.metadata.json",
+      "CHAPTER5_AUDIT_REPORT.md.resolved",
+      "CHAPTER5_AUDIT_REPORT.md.resolved.0",
+      "CHAPTER5_AUDIT_REPORT.md.resolved.1",
+      "CHAPTER_4_RESULTS.md",
+      "CHAPTER_4_RESULTS.md.metadata.json",
+      "CHAPTER_4_RESULTS.md.resolved",
+      "CHAPTER_4_RESULTS.md.resolved.0",
+      "CHAPTER_4_RESULTS.md.resolved.1",
+      "CHAPTER_5_DISCUSSION.md",
+      "CHAPTER_5_DISCUSSION.md.metadata.json",
+      "CHAPTER_5_DISCUSSION.md.resolved",
+      "CHAPTER_5_DISCUSSION.md.resolved.0",
+      "CHAPTER_5_DISCUSSION.md.resolved.1",
+      "cnn_architecture_1776860910000.png",
+      "CONFERENCE_PAPER_IMPLEMENTATION_PLAN.md",
+      "CONFERENCE_PAPER_IMPLEMENTATION_PLAN.md.metadata.json",
+      "CONFERENCE_PAPER_IMPLEMENTATION_PLAN.md.resolved",
+      "CONFERENCE_PAPER_IMPLEMENTATION_PLAN.md.resolved.0",
+      "continuous_workflow_1777653495830.png",
+      "critical_review.md",
+      "critical_review.md.metadata.json",
+      "critical_review.md.resolved",
+      "critical_review.md.resolved.0",
+      "implementation_plan.md",
+      "implementation_plan.md.metadata.json",
+      "implementation_plan.md.resolved",
+      "implementation_plan.md.resolved.0",
+      "implementation_plan.md.resolved.1",
+      "implementation_plan.md.resolved.2",
+      "media__1777167587859.png",
+      "media__1777167622705.jpg",
+      "media__1778849728389.png",
+      "media__1778856638624.png",
+      "media__1781087542290.png",
+      "media__1782223872070.png",
+      "media__1782223879160.png",
+      "media__1782223967686.png",
+      "media__1782354698185.png",
+      "media__1783340008507.png",
+      "NDVI_AOA_SYNTHESIS.md",
+      "NDVI_AOA_SYNTHESIS.md.metadata.json",
+      "NDVI_AOA_SYNTHESIS.md.resolved",
+      "NDVI_AOA_SYNTHESIS.md.resolved.0",
+      "notebook_upgrade_plan.md",
+      "notebook_upgrade_plan.md.metadata.json",
+      "notebook_upgrade_plan.md.resolved",
+      "notebook_upgrade_plan.md.resolved.0",
+      "notebook_upgrade_plan.md.resolved.1",
+      "pipeline_overview_1776860869051.png",
+      "proposal_audit.md",
+      "proposal_audit.md.metadata.json",
+      "proposal_audit.md.resolved",
+      "proposal_audit.md.resolved.0",
+      "results_chapter_structure.md",
+      "results_chapter_structure.md.metadata.json",
+      "results_chapter_structure.md.resolved",
+      "results_chapter_structure.md.resolved.0",
+      "review_geoai4sd_page_1782352943373.webp",
+      "REVISED_RESULTS_SYNTHESIS.md",
+      "REVISED_RESULTS_SYNTHESIS.md.metadata.json",
+      "REVISED_RESULTS_SYNTHESIS.md.resolved",
+      "REVISED_RESULTS_SYNTHESIS.md.resolved.0",
+      "sop_audit.md",
+      "sop_audit.md.metadata.json",
+      "sop_audit.md.resolved",
+      "sop_audit.md.resolved.0",
+      "spatial_block_cv_1776861850099.png",
+      "task.md",
+      "task.md.metadata.json",
+      "task.md.resolved",
+      "task.md.resolved.0",
+      "task.md.resolved.1",
+      "task.md.resolved.2",
+      "transferability_strategy.md",
+      "transferability_strategy.md.metadata.json",
+      "transferability_strategy.md.resolved",
+      "transferability_strategy.md.resolved.0",
+      "unified_methodology_workflow_1777172372884.png",
+      "unified_workflow_colored_1777172928658.png",
+      "vra_prescription_1776861782490.png",
+      "walkthrough.md",
+      "walkthrough.md.metadata.json",
+      "walkthrough.md.resolved",
+      "walkthrough.md.resolved.0",
+      "walkthrough.md.resolved.1",
+      "walkthrough.md.resolved.2",
+      "walkthrough.md.resolved.3",
+      "workflow_page1.png"
+    ]
   },
   {
     "id": "d33323d7-5bb0-4b15-88c6-c7417cb70a37",
@@ -24,7 +123,42 @@
     "created_at": "2026-04-15T21:22:24Z",
     "updated_at": "2026-07-05T01:09:55Z",
     "message_count": 223,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "Academic_Humanizer_Agent_Workflow.md",
+      "Academic_Humanizer_Agent_Workflow.md.metadata.json",
+      "Academic_Humanizer_Agent_Workflow.md.resolved",
+      "Academic_Humanizer_Agent_Workflow.md.resolved.0",
+      "AI_Humanization_Framework.md",
+      "AI_Humanization_Framework.md.metadata.json",
+      "AI_Humanization_Framework.md.resolved",
+      "AI_Humanization_Framework.md.resolved.0",
+      "implementation_plan.md",
+      "implementation_plan.md.metadata.json",
+      "implementation_plan.md.resolved",
+      "implementation_plan.md.resolved.0",
+      "implementation_plan.md.resolved.1",
+      "implementation_plan.md.resolved.2",
+      "implementation_plan.md.resolved.3",
+      "implementation_plan.md.resolved.4",
+      "task.md",
+      "task.md.metadata.json",
+      "task.md.resolved",
+      "task.md.resolved.0",
+      "task.md.resolved.1",
+      "task.md.resolved.2",
+      "task.md.resolved.3",
+      "task.md.resolved.4",
+      "task.md.resolved.5",
+      "task.md.resolved.6",
+      "task.md.resolved.7",
+      "walkthrough.md",
+      "walkthrough.md.metadata.json",
+      "walkthrough.md.resolved",
+      "walkthrough.md.resolved.0",
+      "walkthrough.md.resolved.1",
+      "walkthrough.md.resolved.2"
+    ]
   },
   {
     "id": "d3011edc-0e68-4460-85c5-8e57da2c2d6e",
@@ -33,7 +167,40 @@
     "created_at": "2026-06-24T11:59:09Z",
     "updated_at": "2026-07-05T00:50:10Z",
     "message_count": 198,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "dsas_shoreline_guide.md",
+      "dsas_shoreline_guide.md.metadata.json",
+      "dsas_shoreline_guide.md.resolved",
+      "dsas_shoreline_guide.md.resolved.0",
+      "group2_implementation_guide.md",
+      "group2_implementation_guide.md.metadata.json",
+      "group2_implementation_guide.md.resolved",
+      "group2_implementation_guide.md.resolved.0",
+      "implementation_part1.md",
+      "implementation_part1.md.metadata.json",
+      "implementation_part1.md.resolved",
+      "implementation_part1.md.resolved.0",
+      "implementation_part2.md",
+      "implementation_part2.md.metadata.json",
+      "implementation_part2.md.resolved",
+      "implementation_part2.md.resolved.0",
+      "media__1782419854306.png",
+      "media__1782419983625.png",
+      "media__1782422374106.png",
+      "media__1783130244461.png",
+      "media__1783130415505.png",
+      "media__1783132236085.png",
+      "media__1783132740465.png",
+      "media__1783134015961.png",
+      "media__1783134074272.png",
+      "media__1783135939049.png",
+      "media__1783136059357.png",
+      "media__1783211210449.png",
+      "media__1783211369058.png",
+      "media__1783211794456.png",
+      "media__1783211834509.png"
+    ]
   },
   {
     "id": "caf87358-043e-4baf-94a7-670a55e7ed83",
@@ -42,7 +209,10 @@
     "created_at": "2026-07-04T04:33:07Z",
     "updated_at": "2026-07-04T17:42:20Z",
     "message_count": 148,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "download_ghana_boundaries_1783184548785.webp"
+    ]
   },
   {
     "id": "5703f06d-4e56-4f1f-b1ea-448fde4a937a",
@@ -51,7 +221,11 @@
     "created_at": "2026-05-13T11:17:21Z",
     "updated_at": "2026-07-04T16:55:57Z",
     "message_count": 208,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "media__1782487804374.png",
+      "media__1782490635537.png"
+    ]
   },
   {
     "id": "a84c3bbd-98da-4b94-8165-29b18ab60865",
@@ -60,7 +234,22 @@
     "created_at": "2026-07-03T00:36:47Z",
     "updated_at": "2026-07-03T04:28:43Z",
     "message_count": 317,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "classroom_hero_1783041874692.png",
+      "landing_page_1783040126836.png",
+      "landing_page_1783042501249.png",
+      "media__1783041435309.png",
+      "media__1783046662298.png",
+      "media__1783048038610.png",
+      "proposed_improvements.md",
+      "proposed_improvements.md.metadata.json",
+      "proposed_improvements.md.resolved",
+      "proposed_improvements.md.resolved.0",
+      "status_change_rejected_1783043060617.png",
+      "student_headshot_1783040054417.png",
+      "student_portal_hero_1783039940149.png"
+    ]
   },
   {
     "id": "51eed351-8f17-43e1-b404-f216f378b89e",
@@ -69,7 +258,8 @@
     "created_at": "2026-06-30T03:17:55Z",
     "updated_at": "2026-07-01T03:28:12Z",
     "message_count": 38,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": []
   },
   {
     "id": "3dc196c6-417c-4087-b50e-9a5091cdf3f6",
@@ -78,7 +268,23 @@
     "created_at": "2026-06-27T02:06:55Z",
     "updated_at": "2026-06-28T02:15:56Z",
     "message_count": 175,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "media__1782525969368.png",
+      "media__1782529694501.png",
+      "media__1782608852531.png",
+      "media__1782611240714.png",
+      "README_VIIRS_Ghana.md",
+      "README_VIIRS_Ghana.md.metadata.json",
+      "README_VIIRS_Ghana.md.resolved",
+      "README_VIIRS_Ghana.md.resolved.0",
+      "README_VIIRS_Ghana.md.resolved.1",
+      "viirs_ghana_nightlights_guide.md",
+      "viirs_ghana_nightlights_guide.md.metadata.json",
+      "viirs_ghana_nightlights_guide.md.resolved",
+      "viirs_ghana_nightlights_guide.md.resolved.0",
+      "viirs_ghana_nightlights_guide.md.resolved.1"
+    ]
   },
   {
     "id": "e6c389b1-859e-44c6-81f7-95fc5f49a888",
@@ -87,7 +293,12 @@
     "created_at": "2026-05-27T02:46:31Z",
     "updated_at": "2026-06-27T01:55:04Z",
     "message_count": 418,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "google_colab_loaded_1780018881894.png",
+      "media__1780017873060.jpg",
+      "open_google_colab_1780018855942.webp"
+    ]
   },
   {
     "id": "5ad3d26c-bbe1-4270-8d9f-b846d16e79c5",
@@ -96,7 +307,10 @@
     "created_at": "2026-05-11T18:13:48Z",
     "updated_at": "2026-06-23T11:07:21Z",
     "message_count": 227,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "media__1779843138830.png"
+    ]
   },
   {
     "id": "b75de5e0-8eac-448d-93c1-2d263e517c5c",
@@ -105,7 +319,8 @@
     "created_at": "2026-06-18T14:07:13Z",
     "updated_at": "2026-06-18T14:42:35Z",
     "message_count": 45,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": []
   },
   {
     "id": "b3e0fa85-5737-434d-ac3a-de155686790f",
@@ -114,7 +329,11 @@
     "created_at": "2026-06-16T15:17:40Z",
     "updated_at": "2026-06-16T15:33:43Z",
     "message_count": 30,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "compare_posters_1781623470595.webp",
+      "find_poster_link_1781623154622.webp"
+    ]
   },
   {
     "id": "b99248b5-fb58-4d30-afc2-ddce54e31976",
@@ -123,7 +342,8 @@
     "created_at": "2026-06-16T02:41:10Z",
     "updated_at": "2026-06-16T03:01:49Z",
     "message_count": 20,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": []
   },
   {
     "id": "f26b3743-4f2e-468b-9c31-49e838b68baa",
@@ -132,7 +352,10 @@
     "created_at": "2026-06-09T01:26:47Z",
     "updated_at": "2026-06-12T01:29:48Z",
     "message_count": 74,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "media__1781224783128.png"
+    ]
   },
   {
     "id": "9c617379-871c-49f5-ab0d-e96cc2bb0387",
@@ -141,7 +364,81 @@
     "created_at": "2026-05-11T04:33:05Z",
     "updated_at": "2026-06-09T02:33:15Z",
     "message_count": 546,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "about_light_theme_state_1780932914784.png",
+      "accugeospatial_analysis_1778474754974.webp",
+      "after_theme_click_1779671767963.png",
+      "button_close_up_1779672602328.png",
+      "capture_local_theme_pill_1779673889484.webp",
+      "challenge_expanded_overview_1779718204038.png",
+      "challenge_overview_1779718176186.png",
+      "check_localhost_theme_toggle_1779672777448.webp",
+      "check_theme_toggle_looks_1779672404039.webp",
+      "D2.jpg",
+      "D3.jpg",
+      "DI.jpg",
+      "flood_mapping_service_1778474088206.png",
+      "fresh_light_mode_1779671933895.png",
+      "GEORESILIENCE_HUB_IMPLEMENTATION_PLAN.md",
+      "GEORESILIENCE_HUB_IMPLEMENTATION_PLAN.md.metadata.json",
+      "GEORESILIENCE_HUB_IMPLEMENTATION_PLAN.md.resolved",
+      "GEORESILIENCE_HUB_IMPLEMENTATION_PLAN.md.resolved.0",
+      "GEORESILIENCE_HUB_IMPLEMENTATION_PLAN.md.resolved.1",
+      "hero_banner_1778474050097.png",
+      "icon_drone_mapping_1779670176185.png",
+      "icon_field_survey_1779670147950.png",
+      "icon_gis_mapping_1779670068930.png",
+      "icon_gis_training_1779670251896.png",
+      "icon_institution_1780966236580.png",
+      "icon_institution_premium_1780966738028.png",
+      "icon_ngo_1780966170364.png",
+      "icon_ngo_premium_1780966434734.png",
+      "icon_researcher_1780966194517.png",
+      "icon_researcher_premium_1780966471071.png",
+      "icon_research_data_1779670079164.png",
+      "icon_student_1780966216114.png",
+      "icon_student_premium_1780966719581.png",
+      "inspect_theme_toggle_coordinates_1779673764950.webp",
+      "light_theme_state_1780932633079.png",
+      "light_theme_state_retry_1780932734943.png",
+      "light_theme_state_retry_enter_1780932895712.png",
+      "local_theme_pill_1779673906811.png",
+      "M1.jpg",
+      "M2.jpg",
+      "M3.jpg",
+      "M4.jpg",
+      "map_light_theme_state_1780933016270.png",
+      "mobile_optimization_plan.md",
+      "mobile_optimization_plan.md.metadata.json",
+      "mobile_optimization_plan.md.resolved",
+      "mobile_optimization_plan.md.resolved.0",
+      "off_canvas_navigation_review.md",
+      "off_canvas_navigation_review.md.metadata.json",
+      "off_canvas_navigation_review.md.resolved",
+      "off_canvas_navigation_review.md.resolved.0",
+      "PROFESSIONAL_CODE_REVIEW.md",
+      "PROFESSIONAL_CODE_REVIEW.md.metadata.json",
+      "PROFESSIONAL_CODE_REVIEW.md.resolved",
+      "PROFESSIONAL_CODE_REVIEW.md.resolved.0",
+      "second_theme_click_1779671896722.png",
+      "service_geospatial_1779670291667.png",
+      "tab_enter_theme_state_1780933099290.png",
+      "team_section_verification_1780922282479.png",
+      "theme_btn_inspect_1779672700281.png",
+      "theme_toggle_after_click_1779673281533.png",
+      "theme_toggle_btn_1779672900701.png",
+      "theme_toggle_button_1779672416483.png",
+      "theme_toggle_element_1779671622387.png",
+      "theme_toggle_initial_1779673264130.png",
+      "theme_toggle_investigation_1779671583931.webp",
+      "top_right_nav_1779672932045.png",
+      "verify_about_photos_1780922160194.webp",
+      "verify_local_theme_toggle_1779672626274.webp",
+      "verify_new_theme_1780932240120.webp",
+      "verify_theme_pill_button_1779673253320.webp",
+      "welcome_modal_1779718078335.png"
+    ]
   },
   {
     "id": "f605686b-3317-4d3a-b3b3-49aa22b3286d",
@@ -150,7 +447,8 @@
     "created_at": "2026-05-27T01:26:14Z",
     "updated_at": "2026-05-27T02:13:19Z",
     "message_count": 41,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": []
   },
   {
     "id": "98e271f4-edf4-4b21-ba27-23b9e1f0356c",
@@ -159,7 +457,8 @@
     "created_at": "2026-05-25T20:16:44Z",
     "updated_at": "2026-05-25T20:30:31Z",
     "message_count": 21,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": []
   },
   {
     "id": "4611b590-0843-45a8-862a-cb14ac3ed76a",
@@ -168,7 +467,8 @@
     "created_at": "2026-05-25T02:33:40Z",
     "updated_at": "2026-05-25T02:34:49Z",
     "message_count": 14,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": []
   },
   {
     "id": "c511e521-3ada-43c7-9319-dadb6a3ed6b7",
@@ -177,7 +477,8 @@
     "created_at": "2026-05-19T02:28:51Z",
     "updated_at": "2026-05-21T02:30:59Z",
     "message_count": 46,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": []
   },
   {
     "id": "b52cba15-6342-420b-9aeb-cc6c34571ea5",
@@ -186,7 +487,8 @@
     "created_at": "2026-05-20T12:16:08Z",
     "updated_at": "2026-05-20T12:25:13Z",
     "message_count": 31,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": []
   },
   {
     "id": "34caa434-b89a-4d0f-beb1-a0e500fa71b2",
@@ -195,7 +497,8 @@
     "created_at": "2026-05-20T03:15:32Z",
     "updated_at": "2026-05-20T03:17:43Z",
     "message_count": 7,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": []
   },
   {
     "id": "a80652a2-3f6f-407e-a81b-f67cdcbec7ad",
@@ -204,7 +507,26 @@
     "created_at": "2026-03-29T02:36:18Z",
     "updated_at": "2026-05-20T01:18:16Z",
     "message_count": 703,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "form_bottom_1779236662932.png",
+      "form_part2_1779236569589.png",
+      "form_part3_1779236579932.png",
+      "form_part4_1779236597445.png",
+      "form_part5_1779236612921.png",
+      "form_part6_1779236622452.png",
+      "form_part7_1779236640469.png",
+      "form_top_1779236546303.png",
+      "github_repo_check_1778202247900.webp",
+      "github_repo_readme_1778202268049.png",
+      "media__1778288689224.jpg",
+      "media__1778809184792.jpg",
+      "push_readme_github_1778202606108.webp",
+      "read_fellowship_form_1779236421376.webp",
+      "review_flood_pdf_1778809961096.webp",
+      "siuc_geography_faculty_1778732226824.webp",
+      "start_page_1779236471783.png"
+    ]
   },
   {
     "id": "eae92fa2-ee63-4a65-86e4-3d984276062e",
@@ -213,7 +535,8 @@
     "created_at": "2026-05-19T02:59:11Z",
     "updated_at": "2026-05-19T03:26:35Z",
     "message_count": 38,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": []
   },
   {
     "id": "5070a24a-d046-4faa-8903-840528f5d25f",
@@ -222,7 +545,8 @@
     "created_at": "2026-05-12T13:48:05Z",
     "updated_at": "2026-05-15T14:36:24Z",
     "message_count": 4,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": []
   },
   {
     "id": "7a190a51-6131-485c-a15c-806e245eba12",
@@ -231,7 +555,8 @@
     "created_at": "2026-05-13T10:36:31Z",
     "updated_at": "2026-05-13T10:37:17Z",
     "message_count": 2,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": []
   },
   {
     "id": "4cbf308d-ec5b-4b8b-8165-915ad5e2d3d2",
@@ -240,7 +565,8 @@
     "created_at": "2026-05-11T04:08:52Z",
     "updated_at": "2026-05-11T04:18:35Z",
     "message_count": 11,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": []
   },
   {
     "id": "fe83dea6-6867-46f8-8536-da64556b6bb3",
@@ -249,7 +575,8 @@
     "created_at": "2026-05-07T15:52:15Z",
     "updated_at": "2026-05-07T16:10:30Z",
     "message_count": 24,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": []
   },
   {
     "id": "bf6ccf8c-c9a8-41f6-8f72-d9db8b7bceef",
@@ -258,7 +585,22 @@
     "created_at": "2026-04-27T01:09:13Z",
     "updated_at": "2026-05-05T02:06:33Z",
     "message_count": 41,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "GeoAI_OSM_PyTorch_Research.md",
+      "GeoAI_OSM_PyTorch_Research.md.metadata.json",
+      "GeoAI_OSM_PyTorch_Research.md.resolved",
+      "GeoAI_OSM_PyTorch_Research.md.resolved.0",
+      "implementation_plan.md",
+      "implementation_plan.md.metadata.json",
+      "implementation_plan.md.resolved",
+      "implementation_plan.md.resolved.0",
+      "task.md",
+      "task.md.metadata.json",
+      "task.md.resolved",
+      "task.md.resolved.0",
+      "task.md.resolved.1"
+    ]
   },
   {
     "id": "d5c78227-555f-4695-bab5-64a55ac99822",
@@ -267,7 +609,8 @@
     "created_at": "2026-05-05T02:00:52Z",
     "updated_at": "2026-05-05T02:02:24Z",
     "message_count": 10,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": []
   },
   {
     "id": "4f931ce2-ad6e-49e4-b2c9-22049f04955d",
@@ -276,7 +619,8 @@
     "created_at": "2026-05-05T01:04:02Z",
     "updated_at": "2026-05-05T01:04:02Z",
     "message_count": 2,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": []
   },
   {
     "id": "03b34727-b726-4f6b-90c6-dbb812ad09ce",
@@ -285,7 +629,29 @@
     "created_at": "2026-05-02T02:10:34Z",
     "updated_at": "2026-05-02T03:41:16Z",
     "message_count": 53,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "architecture_diagram_1777692383228.png",
+      "final_view_end_1777691664107.png",
+      "initial_view_1777691596465.png",
+      "initial_view_1777691698175.png",
+      "initial_view_top_1777691727056.png",
+      "notebook_screenshot_1777691685688.webp",
+      "projection_comparison_1777692821138.png",
+      "scrolled_view_3000px_1777691742468.png",
+      "theory_notebook_demo_1777691570008.webp",
+      "theory_notebook_preview_1777691431331.webp",
+      "theory_notebook_week1_1777691493827.png",
+      "tile_pyramid_diagram_1777692643963.png",
+      "webgis_mastery_course.md",
+      "webgis_mastery_course.md.metadata.json",
+      "webgis_mastery_course.md.resolved",
+      "webgis_mastery_course.md.resolved.0",
+      "week-01-outline.md",
+      "week-01-outline.md.metadata.json",
+      "week-01-outline.md.resolved",
+      "week-01-outline.md.resolved.0"
+    ]
   },
   {
     "id": "74acbf0d-9e2e-469d-9e16-436cf73bb673",
@@ -294,7 +660,13 @@
     "created_at": "2026-05-01T18:57:06Z",
     "updated_at": "2026-05-01T19:09:16Z",
     "message_count": 17,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "essay_brainstorm.md",
+      "essay_brainstorm.md.metadata.json",
+      "essay_brainstorm.md.resolved",
+      "essay_brainstorm.md.resolved.0"
+    ]
   },
   {
     "id": "e338bfd1-f065-4212-9ed7-df03146e14fd",
@@ -303,7 +675,10 @@
     "created_at": "2026-05-01T18:08:04Z",
     "updated_at": "2026-05-01T18:15:23Z",
     "message_count": 13,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "acci_portal_check_1777659040175.webp"
+    ]
   },
   {
     "id": "ec2655b3-b16a-4e6c-b5c1-50ef20808982",
@@ -312,7 +687,38 @@
     "created_at": "2026-04-28T01:52:17Z",
     "updated_at": "2026-04-30T15:29:28Z",
     "message_count": 93,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "hero_section_1777341435601.png",
+      "implementation_plan.md",
+      "implementation_plan.md.metadata.json",
+      "implementation_plan.md.resolved",
+      "implementation_plan.md.resolved.0",
+      "portfolio_bottom_v2_1777341675912.png",
+      "portfolio_live_preview_1777341416814.webp",
+      "portfolio_screenshots_1777341615517.webp",
+      "portfolio_scroll_1600px_1777341668832.png",
+      "portfolio_scroll_1_1777341636673.png",
+      "portfolio_scroll_2400px_1777341671546.png",
+      "portfolio_scroll_2_1777341638529.png",
+      "portfolio_scroll_800px_1777341666084.png",
+      "portfolio_top_1777341634530.png",
+      "portfolio_top_v2_1777341663099.png",
+      "portfolio_verification_1777560612428.webp",
+      "portfolio_verify_1777341697484.webp",
+      "projects_section_recap_1777341552302.png",
+      "services_section_1777341487454.png",
+      "stats_and_about_1777341462961.png",
+      "task.md",
+      "task.md.metadata.json",
+      "task.md.resolved",
+      "task.md.resolved.0",
+      "tools_section_1777341501594.png",
+      "walkthrough.md",
+      "walkthrough.md.metadata.json",
+      "walkthrough.md.resolved",
+      "walkthrough.md.resolved.0"
+    ]
   },
   {
     "id": "c16d8838-346f-4aa3-9a60-834329db61d6",
@@ -321,7 +727,17 @@
     "created_at": "2026-04-30T00:59:13Z",
     "updated_at": "2026-04-30T01:25:22Z",
     "message_count": 46,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "Ghana_GIS_RS_Jobs_Guide.md",
+      "Ghana_GIS_RS_Jobs_Guide.md.metadata.json",
+      "Ghana_GIS_RS_Jobs_Guide.md.resolved",
+      "Ghana_GIS_RS_Jobs_Guide.md.resolved.0",
+      "GIS_RS_Geography_Graduate_Funding_Guide.md",
+      "GIS_RS_Geography_Graduate_Funding_Guide.md.metadata.json",
+      "GIS_RS_Geography_Graduate_Funding_Guide.md.resolved",
+      "GIS_RS_Geography_Graduate_Funding_Guide.md.resolved.0"
+    ]
   },
   {
     "id": "5d5665e5-2368-42b4-946f-f94b2b50502a",
@@ -330,7 +746,8 @@
     "created_at": "2026-04-28T00:57:41Z",
     "updated_at": "2026-04-28T01:51:01Z",
     "message_count": 38,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": []
   },
   {
     "id": "1aa72c50-03dd-418b-ac6e-52863d3cbe5a",
@@ -339,7 +756,27 @@
     "created_at": "2026-04-24T11:04:53Z",
     "updated_at": "2026-04-24T14:42:15Z",
     "message_count": 115,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "discussion.md",
+      "discussion.md.metadata.json",
+      "discussion.md.resolved",
+      "discussion.md.resolved.0",
+      "dist_vs_income_basic.png",
+      "implementation_plan.md",
+      "implementation_plan.md.metadata.json",
+      "implementation_plan.md.resolved",
+      "implementation_plan.md.resolved.0",
+      "Map_Access_Distance.png",
+      "Map_Health_Expenses.png",
+      "Map_Income_Loss.png",
+      "spatial_heatmaps.png",
+      "voronoi_catchments.png",
+      "walkthrough.md",
+      "walkthrough.md.metadata.json",
+      "walkthrough.md.resolved",
+      "walkthrough.md.resolved.0"
+    ]
   },
   {
     "id": "42fea9e3-feb6-477e-a964-51d8f87b5089",
@@ -348,7 +785,17 @@
     "created_at": "2026-04-23T13:55:00Z",
     "updated_at": "2026-04-23T17:41:16Z",
     "message_count": 61,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "implementation_plan.md",
+      "implementation_plan.md.metadata.json",
+      "implementation_plan.md.resolved",
+      "implementation_plan.md.resolved.0",
+      "task.md",
+      "task.md.metadata.json",
+      "task.md.resolved",
+      "task.md.resolved.0"
+    ]
   },
   {
     "id": "a847b77a-69a6-4812-b917-53afb4497a75",
@@ -357,7 +804,13 @@
     "created_at": "2026-04-23T12:41:33Z",
     "updated_at": "2026-04-23T14:28:27Z",
     "message_count": 16,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "brainstorm_xai_lulc_ghana.md",
+      "brainstorm_xai_lulc_ghana.md.metadata.json",
+      "brainstorm_xai_lulc_ghana.md.resolved",
+      "brainstorm_xai_lulc_ghana.md.resolved.0"
+    ]
   },
   {
     "id": "6d5c966c-b8c5-4437-83c6-e8af09496361",
@@ -366,6 +819,12 @@
     "created_at": "2026-04-22T13:58:51Z",
     "updated_at": "2026-04-23T12:23:27Z",
     "message_count": 35,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "implementation_plan.md",
+      "implementation_plan.md.metadata.json",
+      "implementation_plan.md.resolved",
+      "implementation_plan.md.resolved.0"
+    ]
   }
 ]

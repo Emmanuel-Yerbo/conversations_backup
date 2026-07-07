@@ -1,0 +1,7 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_OTHER",
+  "summary":  "Revised publication-grade Chapter 4: Results for the MPhil thesis. Removed all dashed line separators for natural academic prose flow. Significantly expanded Section 4.4 on spatio-temporal transferability with scientific justification grounded in Tobler's First Law, spatial autocorrelation theory, and the operational deployment argument. Temporal transferability section now includes proper scientific framing (phenological invariance, sensor stability, atmospheric normalization) while noting the 2025 analysis is pending. All other sections preserved with full tables, figure references, and formal academic register.",
+  "updatedAt":  "2026-05-21T01:51:28.259738900Z",
+  "version":  "1",
+  "requestFeedback":  true
+}

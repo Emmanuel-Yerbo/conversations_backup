@@ -1,0 +1,25 @@
+# Tasks: Building the Academic Humanizer Agent
+
+- [x] Install dependencies (`langchain-groq`, `langgraph`, `numpy`)
+- [x] Configure environment variables for Groq
+- [x] Implement `humanizer_agent.py`
+    - [x] Define `AgentState` schema
+    - [x] Implement `extract_entities` node (Agent A)
+    - [x] Implement `humanize_text` node (Agent C)
+    - [x] Implement `verify_burstiness` node (Module 4)
+    - [x] Define the `StateGraph` and its cycles
+- [x] Test the pipeline with a technical paragraph
+- [/] Build the Visual Humanizer Dashboard
+    - [x] Refactor `humanizer_agent.py` for UI import
+    - [x] Implement PDF and DOCX paragraph parsers
+    - [x] Build the Streamlit UI (`humanizer_app.py`)
+        - [x] Create layout (sidebar, main view)
+        - [x] Add real-time Burstiness charts
+        - [x] Implement live "Agent Logs" feed
+- [x] Upgrade to Academic Humanizer PRO
+    - [x] Install `langchain-google-genai`
+    - [x] Add Gemini 1.5 Flash support to `humanizer_agent.py`
+    - [x] Implement `linguistic_audit` node (Adversarial Agent)
+    - [x] Update LangGraph to support dual-model feedback loops
+    - [x] Update Streamlit UI with "Pro Mode" toggle
+- [x] Finalize and provide usage instructions

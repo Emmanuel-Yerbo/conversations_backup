@@ -1,0 +1,53 @@
+# Implementation Plan: Academic Humanizer Agent with LangGraph
+
+This plan outlines the steps to build a prototype of the "Academic Humanizer" system using **LangGraph**. The goal is to create a cyclical workflow where an agent refines text until it meets specific humanization metrics (Perplexity and Burstiness) while maintaining academic rigor.
+
+## User Review Required
+
+> [!IMPORTANT]
+> This prototype will focus on the **architectural structure** of the agents. To fully "Humanize" text in production, you will need access to an LLM (like GPT-4 or Claude 3.5 Sonnet) and ideally a local AI detection model (like RoBERTa).
+
+## Proposed Changes
+
+### [New Project Structure]
+
+#### [NEW] [humanizer_agent.py](file:///c:/YERBO/Desktop/cover%20leter/CL/humanizer_agent.py)
+The main entry point containing the LangGraph logic, state definitions, and node functions.
+
+### [Phase 1: Define the State]
+
+We will use `TypedDict` to define the shared state object passed between agents.
+- `draft`: The current version of the text.
+- `locked_entities`: Technical terms (e.g., "1D-CNN", "Sentinel-2") that must not be changed.
+- `metrics`: Current Burstiness and Perplexity scores.
+- `iterations`: To prevent infinite loops (recursion limit).
+
+### [Phase 2: Define the Nodes (Agents)]
+
+1.  **Extractor Node (`Agent A`):** Uses an LLM to identify technical entities that must stay "Locked."
+2.  **Humanizer Node (`Agent C`):** The "Lexical Perturbator." Rewrites the draft using the academic humanization rules (sentence length variance, banning AI transition words).
+3.  **Verifier Node (`Module 4`):** 
+    - A Python function to calculate **Burstiness** (Standard Deviation of sentence lengths).
+    - (Mock/Placeholder) A call to an AI detector score.
+
+### [Phase 3: Define the Graph & Cycles]
+
+We will build the graph as follows:
+- `Entry` -> `Extractor` -> `Humanizer` -> `Verifier`
+- **Conditional Edge:** If `Verifier` score is above a threshold AND `iterations < limit`, go back to `Humanizer`.
+- Otherwise, go to `END`.
+
+## Open Questions
+
+- **LLM Choice:** Which LLM API do you plan to use for the actual agent logic? (OpenAI, Anthropic, or a local model via Ollama?)
+- **Detection Logic:** Should we implement a real Python-based "Burstiness" calculator (sentence length math) or just rely on LLM self-reflection for this prototype?
+
+## Verification Plan
+
+### Automated Tests
+- Run the graph with a technical input.
+- Log the "Locked Entities" to ensure they weren't changed.
+- Print the sentence length standard deviation before and after the humanization loop.
+
+### Manual Verification
+- Verify that the final output no longer uses banned words like "Furthermore" or "Moreover."

@@ -1,0 +1,6 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary":  "Complete audit of the BASED.ipynb Colab notebook identifying the critical random-split problem (Cell 30) and missing VRA section (Cell 74). Provides 6 copy-paste-ready code blocks: (1) coordinate extraction from .geo JSON, (2) spatial block ID assignment at 0.01° grid, (3) GroupKFold replacement for train_test_split, (4-6) full NDRE-modulated VRA prescription pipeline with savings calculation and dual-panel visualization. Includes exact insertion points mapped to existing cell numbers.",
+  "updatedAt":  "2026-05-15T03:14:17.228152500Z",
+  "requestFeedback":  true
+}

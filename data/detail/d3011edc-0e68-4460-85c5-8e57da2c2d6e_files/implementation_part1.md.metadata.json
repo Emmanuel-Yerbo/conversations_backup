@@ -1,0 +1,5 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary":  "Part 1 of a highly detailed, step-by-step implementation guide for the Group 2 Cape Coast urban geomorphology project. Covers 4 modules in systematic progression: (1) Data Acquisition & Pre-Processing with exact download sources and GEE scripts, (2) LULC Classification using Random Forest with accuracy assessment protocol, (3) Shoreline Change Analysis using DSAS with complete setup instructions, and (4) Slope & Terrain Analysis including TWI and instability zone mapping. Each module includes exact tool names, parameters, expected outputs, and quality checks.",
+  "updatedAt":  "2026-06-24T12:28:55.704258700Z"
+}

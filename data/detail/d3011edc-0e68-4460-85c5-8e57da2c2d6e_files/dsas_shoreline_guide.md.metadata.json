@@ -1,0 +1,6 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_WALKTHROUGH",
+  "summary":  "A comprehensive, beginner-friendly guide for Module 3 (Shoreline Change Analysis) of the Cape Coast urban geomorphology project. Covers four phases:\n\nPhase A: Shoreline extraction from satellite imagery using MNDWI in Google Earth Engine, with complete GEE scripts for Landsat 7 and a band reference table for all 5 epochs.\n\nPhase B: Data preparation for DSAS including cleaning shorelines in ArcGIS Pro, adding required date/uncertainty fields, merging shorelines, and creating an offshore baseline.\n\nPhase C: Running DSAS v6 standalone application — generating transects at 50m spacing, computing EPR/LRR/NSM/SCE statistics, and exporting results.\n\nPhase D: Mapping and interpreting results with a color-coded erosion/accretion classification scheme and summary statistics.\n\nIncludes ASCII diagrams explaining the baseline-transect-shoreline concept, a troubleshooting table, and a deliverables checklist.",
+  "updatedAt":  "2026-07-02T13:00:26.762640500Z",
+  "requestFeedback":  true
+}

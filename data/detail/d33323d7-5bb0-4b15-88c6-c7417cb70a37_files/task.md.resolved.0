@@ -1,0 +1,12 @@
+# Tasks: Building the Academic Humanizer Agent
+
+- [ ] Install dependencies (`langchain-groq`, `langgraph`, `numpy`)
+- [ ] Configure environment variables for Groq
+- [ ] Implement `humanizer_agent.py`
+    - [ ] Define `AgentState` schema
+    - [ ] Implement `extract_entities` node (Agent A)
+    - [ ] Implement `humanize_text` node (Agent C)
+    - [ ] Implement `verify_burstiness` node (Module 4)
+    - [ ] Define the `StateGraph` and its cycles
+- [ ] Test the pipeline with a technical paragraph
+- [ ] Finalize and provide usage instructions

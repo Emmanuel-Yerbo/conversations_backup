@@ -190,7 +190,7 @@ def parse_transcript(convo_id, file_path):
                 
     return turns
 
-def generate_markdown(metadata, turns):
+def generate_markdown(metadata, turns, copied_artifacts=None):
     """Generate beautiful Markdown document for a conversation."""
     md = []
     md.append(f"# 💬 {metadata['title']}")
@@ -199,6 +199,16 @@ def generate_markdown(metadata, turns):
     md.append(f"**Messages:** {metadata['message_count']} | **Model:** {metadata['model_name']}  ")
     md.append("\n---\n")
     
+    if copied_artifacts:
+        md.append("### 📦 Generated Artifacts / Outputs")
+        for art in copied_artifacts:
+            # URL encode spaces to make markdown links work properly
+            import urllib.parse
+            url_encoded_art = urllib.parse.quote(art)
+            link = f"./{metadata['id']}_files/{url_encoded_art}"
+            md.append(f"- [{art}]({link})")
+        md.append("\n---\n")
+        
     if metadata['summary']:
         md.append(f"> **Summary:** {metadata['summary']}\n\n---\n")
         
@@ -294,6 +304,30 @@ def parse_takeout_json(takeout_path):
         
     return turns_by_convo
 
+def copy_generated_files(src_dir, dest_dir):
+    """Copy non-system generated files (artifacts) from conversation source to backup destination."""
+    if not os.path.exists(src_dir):
+        return []
+        
+    copied_files = []
+    try:
+        for item in os.listdir(src_dir):
+            item_path = os.path.join(src_dir, item)
+            if os.path.isfile(item_path):
+                # Ignore system hidden files/folders and metadata files
+                if item.startswith('.') or item.lower() in ('metadata.json', 'overview.txt', 'transcript.jsonl'):
+                    continue
+                # Create destination directory
+                os.makedirs(dest_dir, exist_ok=True)
+                dest_path = os.path.join(dest_dir, item)
+                import shutil
+                shutil.copy2(item_path, dest_path)
+                copied_files.append(item)
+    except Exception as e:
+        print(f"Error copying files from {src_dir}: {e}")
+        
+    return copied_files
+
 def sync_conversations():
     """Main synchronization loop."""
     print("Scanning app data directories:")
@@ -353,6 +387,11 @@ def sync_conversations():
         
         title, summary = infer_title_and_summary(folder, first_input)
         
+        # Copy non-system generated artifact files if any exist
+        src_dir = os.path.dirname(os.path.dirname(os.path.dirname(best_path)))
+        dest_files_dir = os.path.join(DETAIL_DIR, f"{folder}_files")
+        copied_artifacts = copy_generated_files(src_dir, dest_files_dir)
+        
         metadata = {
             "id": folder,
             "title": title,
@@ -360,7 +399,8 @@ def sync_conversations():
             "created_at": created_at,
             "updated_at": updated_at,
             "message_count": len(best_turns),
-            "model_name": "Gemini 3.5 Flash / Claude Opus" # Fallback/generic
+            "model_name": "Gemini 3.5 Flash / Claude Opus", # Fallback/generic
+            "artifacts": copied_artifacts
         }
         
         # Save individual JSON
@@ -369,13 +409,13 @@ def sync_conversations():
             json.dump({"metadata": metadata, "turns": best_turns}, f, indent=2)
             
         # Generate and save Markdown
-        md_content = generate_markdown(metadata, best_turns)
+        md_content = generate_markdown(metadata, best_turns, copied_artifacts)
         convo_md_path = os.path.join(DETAIL_DIR, f"{folder}.md")
         with open(convo_md_path, 'w', encoding='utf-8') as f:
             f.write(md_content)
             
         convo_list.append(metadata)
-        print(f"  Processed: {title}")
+        print(f"  Processed: {title} ({len(copied_artifacts)} artifacts copied)")
         
     # Process Google Takeout data if available
     takeout_json_path = os.path.join(TAKEOUT_DIR, 'MyActivity.json')

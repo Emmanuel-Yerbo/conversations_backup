@@ -1,0 +1,6 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_OTHER",
+  "summary":  "A comprehensive, research-backed WebGIS mastery course structured in 8 modules progressing from intermediate to advanced. Covers: web mapping libraries (Leaflet, OpenLayers, MapLibre, CesiumJS, deck.gl), spatial databases (PostGIS), map servers (GeoServer), OGC standards (WMS/WFS/WMTS and modern OGC APIs), cloud-native geospatial formats (COG, PMTiles, FlatGeobuf, GeoParquet, STAC), frontend framework integration (React/Vue/Svelte), real-time streaming, GeoAI integration, security/SDI, DevOps/Docker deployment, performance optimization, and 6 capstone projects. Includes technology comparison tables, weekly breakdowns, recommended resources, and a portfolio strategy.",
+  "updatedAt":  "2026-05-02T02:16:46.684565300Z",
+  "requestFeedback":  true
+}

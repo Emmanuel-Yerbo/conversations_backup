@@ -6,7 +6,29 @@
     "created_at": "2026-05-02T02:10:34Z",
     "updated_at": "2026-05-02T03:41:16Z",
     "message_count": 53,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "architecture_diagram_1777692383228.png",
+      "final_view_end_1777691664107.png",
+      "initial_view_1777691596465.png",
+      "initial_view_1777691698175.png",
+      "initial_view_top_1777691727056.png",
+      "notebook_screenshot_1777691685688.webp",
+      "projection_comparison_1777692821138.png",
+      "scrolled_view_3000px_1777691742468.png",
+      "theory_notebook_demo_1777691570008.webp",
+      "theory_notebook_preview_1777691431331.webp",
+      "theory_notebook_week1_1777691493827.png",
+      "tile_pyramid_diagram_1777692643963.png",
+      "webgis_mastery_course.md",
+      "webgis_mastery_course.md.metadata.json",
+      "webgis_mastery_course.md.resolved",
+      "webgis_mastery_course.md.resolved.0",
+      "week-01-outline.md",
+      "week-01-outline.md.metadata.json",
+      "week-01-outline.md.resolved",
+      "week-01-outline.md.resolved.0"
+    ]
   },
   "turns": [
     {

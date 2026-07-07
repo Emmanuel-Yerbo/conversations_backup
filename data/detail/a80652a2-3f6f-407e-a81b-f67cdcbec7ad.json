@@ -6,7 +6,26 @@
     "created_at": "2026-03-29T02:36:18Z",
     "updated_at": "2026-05-20T01:18:16Z",
     "message_count": 703,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "form_bottom_1779236662932.png",
+      "form_part2_1779236569589.png",
+      "form_part3_1779236579932.png",
+      "form_part4_1779236597445.png",
+      "form_part5_1779236612921.png",
+      "form_part6_1779236622452.png",
+      "form_part7_1779236640469.png",
+      "form_top_1779236546303.png",
+      "github_repo_check_1778202247900.webp",
+      "github_repo_readme_1778202268049.png",
+      "media__1778288689224.jpg",
+      "media__1778809184792.jpg",
+      "push_readme_github_1778202606108.webp",
+      "read_fellowship_form_1779236421376.webp",
+      "review_flood_pdf_1778809961096.webp",
+      "siuc_geography_faculty_1778732226824.webp",
+      "start_page_1779236471783.png"
+    ]
   },
   "turns": [
     {

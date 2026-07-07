@@ -1,0 +1,53 @@
+# Implementation Plan: Academic Humanizer Visual Dashboard
+
+This plan outlines the development of a professional-grade web UI for the Academic Humanizer. This UI will eliminate the need to edit Python files and provide real-time visual feedback on the humanization process.
+
+## User Review Required
+
+> [!IMPORTANT]
+> **Hosting Clarification:** GitHub Pages only hosts **static** websites (HTML/CSS). Since your agent requires a Python backend to run LangGraph and call the Groq API, it **cannot** be hosted on GitHub Pages for free. 
+> 
+> **Alternative:** I will build this as a **Local Web App** using **Streamlit**. You will run it with one command, and it will open a beautiful interface in your browser that looks and feels like a professional website.
+
+## Proposed Changes
+
+### [New Project Components]
+
+#### [NEW] [humanizer_app.py](file:///c:/YERBO/Desktop/cover%20leter/CL/humanizer_app.py)
+A new Streamlit-based application that acts as the visual frontend. Key features include:
+- **File Uploader:** Drag-and-drop support for `.pdf` and `.docx` files.
+- **Entity Dashboard:** Shows which technical terms were "Locked" by the agent.
+- **Metric Visualizer:** A real-time chart showing the Burstiness score increasing across iterations.
+- **Live Logs:** A visual feed showing the "Agent's Thoughts" as it works.
+
+#### [MODIFY] [humanizer_agent.py](file:///c:/YERBO/Desktop/cover%20leter/CL/humanizer_agent.py)
+Small refactoring to make the LangGraph app importable into the UI without running the `if __name__ == "__main__"` test code.
+
+### [Phase 1: File Parsing Engine]
+Implemented inside the UI to handle:
+- **PDF Extraction:** Using `PyMuPDF`.
+- **Word Extraction:** Using `python-docx`.
+- Splitting large documents into manageable chunks for the LLM.
+
+### [Phase 2: Premium UI Design]
+- **Sidebar:** For API settings and Iteration Limit controls.
+- **Main Area:** Split-screen view (Original Text vs. Humanized Result).
+- **Theme:** Dark mode by default for a premium, developer-centric feel.
+
+### [Phase 3: Integration]
+Connecting the "Apply Humanization" button in the UI to the LangGraph execution loop.
+
+## Open Questions
+
+- **Chunking Logic:** If you upload a 50-page PDF, the LLM cannot process it all at once. Should the UI process it **page-by-page** or **paragraph-by-paragraph**?
+- **Download Format:** Would you like the final humanized output to be downloadable as a new Word document or simply copied as text?
+
+## Verification Plan
+
+### Automated Tests
+- Validate PDF text extraction against a sample research paper.
+- Test UI responsiveness during the LangGraph loop.
+
+### Manual Verification
+- Verify that clicking "Humanize" updates the visual charts and live logs.
+- Test the "Download" functionality for Word files.

@@ -1,0 +1,6 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_WALKTHROUGH",
+  "summary":  "Complete Results chapter blueprint for the MPhil thesis, organized by 4 research objectives. Each objective section specifies exactly which figures (maps, charts, confusion matrix), tables (classification metrics, area distribution, nitrogen savings), and key findings to include. Objective 4 (Spatial Block CV) is strategically placed first to establish validation credibility before presenting accuracy claims. Includes sequential figure/table numbering and academic formatting guidance.",
+  "updatedAt":  "2026-05-18T13:05:41.534418400Z",
+  "requestFeedback":  true
+}

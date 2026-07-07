@@ -5,6 +5,23 @@
 
 ---
 
+### 📦 Generated Artifacts / Outputs
+- [GeoAI_OSM_PyTorch_Research.md](./bf6ccf8c-c9a8-41f6-8f72-d9db8b7bceef_files/GeoAI_OSM_PyTorch_Research.md)
+- [GeoAI_OSM_PyTorch_Research.md.metadata.json](./bf6ccf8c-c9a8-41f6-8f72-d9db8b7bceef_files/GeoAI_OSM_PyTorch_Research.md.metadata.json)
+- [GeoAI_OSM_PyTorch_Research.md.resolved](./bf6ccf8c-c9a8-41f6-8f72-d9db8b7bceef_files/GeoAI_OSM_PyTorch_Research.md.resolved)
+- [GeoAI_OSM_PyTorch_Research.md.resolved.0](./bf6ccf8c-c9a8-41f6-8f72-d9db8b7bceef_files/GeoAI_OSM_PyTorch_Research.md.resolved.0)
+- [implementation_plan.md](./bf6ccf8c-c9a8-41f6-8f72-d9db8b7bceef_files/implementation_plan.md)
+- [implementation_plan.md.metadata.json](./bf6ccf8c-c9a8-41f6-8f72-d9db8b7bceef_files/implementation_plan.md.metadata.json)
+- [implementation_plan.md.resolved](./bf6ccf8c-c9a8-41f6-8f72-d9db8b7bceef_files/implementation_plan.md.resolved)
+- [implementation_plan.md.resolved.0](./bf6ccf8c-c9a8-41f6-8f72-d9db8b7bceef_files/implementation_plan.md.resolved.0)
+- [task.md](./bf6ccf8c-c9a8-41f6-8f72-d9db8b7bceef_files/task.md)
+- [task.md.metadata.json](./bf6ccf8c-c9a8-41f6-8f72-d9db8b7bceef_files/task.md.metadata.json)
+- [task.md.resolved](./bf6ccf8c-c9a8-41f6-8f72-d9db8b7bceef_files/task.md.resolved)
+- [task.md.resolved.0](./bf6ccf8c-c9a8-41f6-8f72-d9db8b7bceef_files/task.md.resolved.0)
+- [task.md.resolved.1](./bf6ccf8c-c9a8-41f6-8f72-d9db8b7bceef_files/task.md.resolved.1)
+
+---
+
 > **Summary:** I AM INTERESTED IN PERFORMING GEOAI WITH OSM DATA [ OSM, NETWORKX], I WANT TO KNOW THE KINDS OF PROBLEMS I CAN SOLVE USING PYTORCH THROUGH COLAB OF KA...
 
 ---

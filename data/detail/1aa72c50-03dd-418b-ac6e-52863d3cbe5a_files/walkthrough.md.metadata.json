@@ -1,0 +1,6 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_WALKTHROUGH",
+  "summary":  "A comprehensive spatial analysis walkthrough documenting 6 analytical pathways for examining the effects of potable water access on livelihood assets in the Shama Municipality. Each pathway includes embedded map visualizations, detailed interpretations, and explicit connections to the DFID Sustainable Livelihoods Framework (SLF) five capitals. The document covers: (1) GPS Proximity Analysis showing weak direct income correlation, (2) Spatial Isolation Mapping revealing three distinct community clusters, (3) Income Loss Vulnerability mapping showing spatially clustered economic erosion, (4) Health Expense Vulnerability mapping with the counterintuitive finding that the most water-rich community reports highest health costs, (5) Interpolated Heatmaps identifying 'double disadvantage' zones, and (6) Voronoi Catchment Analysis linking infrastructure density to adaptive capacity. Includes a summary table mapping each pathway to SLF capitals and a complete file inventory.",
+  "updatedAt":  "2026-04-24T12:10:12.641420900Z",
+  "requestFeedback":  true
+}

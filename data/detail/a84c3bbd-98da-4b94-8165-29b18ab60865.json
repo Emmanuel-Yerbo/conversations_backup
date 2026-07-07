@@ -6,7 +6,22 @@
     "created_at": "2026-07-03T00:36:47Z",
     "updated_at": "2026-07-03T04:28:43Z",
     "message_count": 317,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "classroom_hero_1783041874692.png",
+      "landing_page_1783040126836.png",
+      "landing_page_1783042501249.png",
+      "media__1783041435309.png",
+      "media__1783046662298.png",
+      "media__1783048038610.png",
+      "proposed_improvements.md",
+      "proposed_improvements.md.metadata.json",
+      "proposed_improvements.md.resolved",
+      "proposed_improvements.md.resolved.0",
+      "status_change_rejected_1783043060617.png",
+      "student_headshot_1783040054417.png",
+      "student_portal_hero_1783039940149.png"
+    ]
   },
   "turns": [
     {

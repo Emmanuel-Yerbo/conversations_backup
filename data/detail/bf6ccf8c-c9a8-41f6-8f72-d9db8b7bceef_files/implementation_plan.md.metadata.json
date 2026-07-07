@@ -1,0 +1,6 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary":  "A detailed 13-week implementation plan for a publication-ready research project: 'Detecting Unmapped Roads in Ghana Using Graph Neural Networks on OpenStreetMap Data.' Covers 4 phases: (1) Data acquisition & EDA for 6 Ghanaian study areas across 3 completeness tiers, (2) Implementation of 3 GNN models (VGAE, GAT, SEAL) with spatially-constrained negative sampling and spatial block cross-validation, (3) 4 experiments including within-city comparison, cross-city transfer, urban-to-rural transfer, and sensitivity analysis, (4) Manuscript drafting targeting IJGIS or ISPRS IJGI. All work runs on free Colab/Kaggle GPU with no external data beyond OSM.",
+  "updatedAt":  "2026-04-27T01:30:38.832296600Z",
+  "requestFeedback":  true
+}

@@ -1,0 +1,6 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary":  "Visual review of the layout screenshots DI.jpg, D2.jpg, and D3.jpg. Explains the off-canvas/drawer navigation pattern requested by the user, where the main content page shifts to the right to reveal a section chooser menu on the left. Outline implementation steps for the CSS/JS to achieve this effect.",
+  "updatedAt":  "2026-06-09T02:22:08.106382200Z",
+  "requestFeedback":  true
+}

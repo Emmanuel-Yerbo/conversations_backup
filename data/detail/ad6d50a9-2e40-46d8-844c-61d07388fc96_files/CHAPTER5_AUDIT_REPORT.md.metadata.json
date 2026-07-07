@@ -1,0 +1,6 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_OTHER",
+  "summary":  "Final audit report for Chapter 5 of the precision agriculture thesis. Documents all 6 fixes applied: (1) removed fabricated 5-15% margin from Kamilaris citation, (2) removed misattributed 10-20% accuracy drop from Nyborg citation, (3) corrected overstated VRT savings from Vizzari citation, (4) fixed residual old 45.2% savings figure, (5) replaced fabricated Biney & Boakye 2023 with verified Baddianaah et al. 2023, (6) re-cited Forestry Commission data as grey literature via GNA. Includes full verified reference list with 22 citations.",
+  "updatedAt":  "2026-06-25T02:00:18.706812800Z",
+  "version":  "1"
+}

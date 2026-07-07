@@ -1,0 +1,6 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary":  "Implementation plan for Explainable AI (XAI) in GeoAI models, focusing on 1D-CNN for nitrogen prescription and Computer Vision for building footprints.",
+  "updatedAt":  "2026-04-23T14:26:55.776229700Z",
+  "requestFeedback":  true
+}

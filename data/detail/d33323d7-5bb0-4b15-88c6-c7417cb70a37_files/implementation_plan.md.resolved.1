@@ -1,0 +1,51 @@
+# Implementation Plan: Academic Humanizer Agent with LangGraph
+
+This plan outlines the steps to build a prototype of the "Academic Humanizer" system using **LangGraph**. The goal is to create a cyclical workflow where an agent refines text until it meets specific humanization metrics (Perplexity and Burstiness) while maintaining academic rigor.
+
+## User Review Required
+
+> [!IMPORTANT]
+> This prototype will focus on a **fully open-source** and **cost-free** architecture. It uses **Ollama** for the local LLM logic and a **Python-based mathematical engine** to calculate humanization metrics, ensuring zero API costs.
+
+## Proposed Changes
+
+### [New Project Structure]
+
+#### [NEW] [humanizer_agent.py](file:///c:/YERBO/Desktop/cover%20leter/CL/humanizer_agent.py)
+The main entry point containing the LangGraph logic, state definitions, and node functions using `langchain-ollama`.
+
+### [Phase 1: Define the State]
+
+We will use `TypedDict` to define the shared state object:
+- `draft`: The current version of the text.
+- `locked_entities`: Technical terms (e.g., "1D-CNN", "Sentinel-2") identified by Node A.
+- `burstiness_score`: The standard deviation of sentence lengths calculated by Python.
+- `iterations`: To prevent infinite loops.
+
+### [Phase 2: Define the Nodes (Agents)]
+
+1.  **Extractor Node (`Agent A`):** Uses a local Ollama model (e.g., Llama3) to identify technical entities.
+2.  **Humanizer Node (`Agent C`):** The "Lexical Perturbator" (Llama3). Rewrites text using the burstiness rules.
+3.  **Verifier Node (`Module 4`):** A native Python function using `numpy` or basic math to calculate **Burstiness** (Standard Deviation).
+
+### [Phase 3: Define the Graph & Cycles]
+
+We will build the graph as follows:
+- `Entry` -> `Extractor` -> `Humanizer` -> `Verifier`
+- **Conditional Edge:** If `Verifier` score is above a threshold AND `iterations < limit`, go back to `Humanizer`.
+- Otherwise, go to `END`.
+
+## Open Questions
+
+- **Ollama Setup:** Do you have Ollama installed locally? If not, we will add a setup step to pull `llama3` or `mistral`.
+- **Thresholds:** What is your target "Burstiness" score? (High standard deviation in sentence length is better).
+
+## Verification Plan
+
+### Automated Tests
+- Run the graph with a technical input.
+- Log the "Locked Entities" to ensure they weren't changed.
+- Print the sentence length standard deviation before and after the humanization loop.
+
+### Manual Verification
+- Verify that the final output no longer uses banned words like "Furthermore" or "Moreover."

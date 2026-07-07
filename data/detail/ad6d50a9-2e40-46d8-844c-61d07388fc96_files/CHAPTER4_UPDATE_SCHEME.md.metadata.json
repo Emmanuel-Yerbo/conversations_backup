@@ -1,0 +1,6 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary":  "Section-by-section update scheme for NEW_UPDATE_RESULTS.docx, mapping every paragraph, table, and figure in the existing document to the specific changes needed based on the revised 14-feature model results. Includes exact old → new number replacements, new sections to insert (Area of Applicability), and italicised placeholders for figures and tables the user needs to generate from Colab.",
+  "updatedAt":  "2026-06-23T14:35:39.634137900Z",
+  "requestFeedback":  true
+}

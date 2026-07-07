@@ -1,0 +1,6 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary":  "Implementation plan and technical guide for creating a premium nighttime lights visualization of Ghana using NASA VIIRS satellite imagery in R. Features code for fully programmatic downloading via the blackmarbler package using a NASA Earthdata token, alongside local fallback support, log-scaling adjustments, and modern ggplot2/terra geospatial practices.",
+  "updatedAt":  "2026-06-27T02:18:07.508583500Z",
+  "version":  "1"
+}

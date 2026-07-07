@@ -1,0 +1,10 @@
+- [ ] [Component 1] XAI for 1D-CNN (Nitrogen Prescription)
+    - [ ] Create `XAI_1D_CNN_Interpretation.ipynb`
+    - [ ] Implement SHAP KernelExplainer
+    - [ ] Generate Feature Importance plots
+- [ ] [Component 2] XAI for Building Footprint Extraction
+    - [ ] Create `XAI_Building_Visualizer.ipynb`
+    - [ ] Implement Grad-CAM/Integrated Gradients
+    - [ ] Generate heatmap overlays
+- [ ] [Component 3] Research Documentation
+    - [ ] Draft `XAI_Methodology_Draft.md`

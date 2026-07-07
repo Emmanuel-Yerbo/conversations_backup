@@ -6,7 +6,10 @@
     "created_at": "2026-07-04T04:33:07Z",
     "updated_at": "2026-07-04T17:42:20Z",
     "message_count": 148,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "download_ghana_boundaries_1783184548785.webp"
+    ]
   },
   "turns": [
     {

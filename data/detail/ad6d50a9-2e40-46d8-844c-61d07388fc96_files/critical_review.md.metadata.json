@@ -1,0 +1,5 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_OTHER",
+  "summary":  "Critical review of the GeoAI4SD 2026 conference paper from the perspective of a senior committee reviewer. Identifies 10 issues: incorrect reference journal name, cross-citation mismatch, Markdown syntax leaking into Word, band count error, missing limitations section, interpretive language in Results, and AI-pattern language throughout. Provides anti-AI humanisation strategies.",
+  "updatedAt":  "2026-06-25T14:09:56.767453200Z"
+}

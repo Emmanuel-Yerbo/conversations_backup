@@ -6,7 +6,22 @@
     "created_at": "2026-04-27T01:09:13Z",
     "updated_at": "2026-05-05T02:06:33Z",
     "message_count": 41,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "GeoAI_OSM_PyTorch_Research.md",
+      "GeoAI_OSM_PyTorch_Research.md.metadata.json",
+      "GeoAI_OSM_PyTorch_Research.md.resolved",
+      "GeoAI_OSM_PyTorch_Research.md.resolved.0",
+      "implementation_plan.md",
+      "implementation_plan.md.metadata.json",
+      "implementation_plan.md.resolved",
+      "implementation_plan.md.resolved.0",
+      "task.md",
+      "task.md.metadata.json",
+      "task.md.resolved",
+      "task.md.resolved.0",
+      "task.md.resolved.1"
+    ]
   },
   "turns": [
     {

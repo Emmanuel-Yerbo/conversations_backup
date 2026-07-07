@@ -6,7 +6,11 @@
     "created_at": "2026-05-13T11:17:21Z",
     "updated_at": "2026-07-04T16:55:57Z",
     "message_count": 208,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "media__1782487804374.png",
+      "media__1782490635537.png"
+    ]
   },
   "turns": [
     {

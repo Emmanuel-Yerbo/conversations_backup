@@ -1,0 +1,6 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary":  "A comprehensive, multi-pathway implementation plan for examining the effects of access to potable drinking water on livelihood assets in the Shama Municipality. Grounded in the DFID Sustainable Livelihoods Framework (SLF), the plan maps all 148 survey variables to five livelihood capitals (Human, Financial, Physical, Natural, Social) and proposes 7 analytical phases: (1) Data Cleaning & Variable Engineering, (2) Descriptive Profiling, (3) Composite Index Construction (Water Access Index & Livelihood Asset Index), (4) Inferential Statistical Testing, (5) Regression Modeling, (6) Spatial Analysis, and (7) Visualization & Reporting. Each phase includes specific variable mappings, statistical methods, Python libraries, and expected outputs. The plan also identifies data limitations (n=69, ordinal scales) and proposes mitigation strategies.",
+  "updatedAt":  "2026-04-24T11:14:23.249103700Z",
+  "requestFeedback":  true
+}

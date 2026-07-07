@@ -1,0 +1,6 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_OTHER",
+  "summary":  "Comprehensive Week 1 outline for the WebGIS Mastery course covering 'How Web Maps Work'. Organized into 7 theory sections (WebGIS definition, client-server architecture, tile pyramids, map projections, geospatial data formats, Leaflet.js introduction, and synthesis) each with interactive knowledge checks. Part 2 covers a 6-step practice lab building an interactive Ghana map with Leaflet. Includes learning objectives, deliverables, and supplementary resources.",
+  "updatedAt":  "2026-05-02T02:46:52.118457900Z",
+  "requestFeedback":  true
+}

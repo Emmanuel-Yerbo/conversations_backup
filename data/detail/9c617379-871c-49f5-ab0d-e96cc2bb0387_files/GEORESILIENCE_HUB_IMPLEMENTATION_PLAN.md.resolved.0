@@ -1,0 +1,268 @@
+# GeoResilience Hub — Phase 1 Implementation Plan
+
+**Project:** GeoResilience Hub Website  
+**Founders:** Sambus Geospatial & AcuGeospatial  
+**Date:** May 11, 2026  
+**Status:** Phase 1 — Approved for Implementation  
+
+---
+
+## 1. Project Overview
+
+GeoResilience Hub is a professional geospatial consulting website for **two partners**:
+
+| Partner | Brand | Role |
+|---|---|---|
+| Emmanuel Yerbo | **Sambus Geospatial** | GIS & Remote Sensing, Flood Mapping, GeoAI |
+| Gifty Gyamera-Annor | **AcuGeospatial** | GIS Mapping, Land & Urban Planning, Data Support |
+
+The site will serve as a **client-facing platform** to showcase services, display an interactive flood vulnerability map, provide pricing/contact information, and build credibility through testimonials.
+
+> [!NOTE]
+> All text content, images, and testimonials are **placeholders** for Phase 1. The client will supply real logos, photos, bios, and testimonial quotes in a later update pass.
+
+---
+
+## 2. Site Architecture — 7 Pages
+
+```mermaid
+graph TD
+    A["🏠 Home"] --> B["📋 About Us"]
+    A --> C["🛠️ Services"]
+    A --> D["🗺️ Interactive Map"]
+    A --> E["💬 Testimonials"]
+    A --> F["💰 Pricing"]
+    A --> G["📞 Contact"]
+```
+
+### Page Breakdown
+
+#### 2.1 Home (Landing Page)
+- Hero section with full-width banner, tagline, and CTA buttons
+- Tagline: *"Turning Spatial Data into Real-World Solutions"*
+- Quick overview cards for 3 service pillars (Flood & Environmental, Land & Urban Planning, GIS Mapping)
+- "Meet the Team" teaser with photos + names linking to About
+- Stats counter section (e.g., "50+ Projects Delivered", "10+ Districts Served")
+- CTA banner → Contact / Pricing
+
+#### 2.2 About Us
+- Company story and mission statement
+- Individual profiles for both partners:
+  - **Sambus Geospatial (Emmanuel Yerbo):** BSc Geography & Regional Planning, UCC. GeoAI, Flood Mapping, Remote Sensing specialist.
+  - **AcuGeospatial (Gifty Gyamera-Annor):** GIS Mapping, Land Use Analysis, Spatial Data Support specialist.
+- Certifications & tools grid (ESRI certs, ArcGIS, QGIS, GEE, Pix4D logos)
+- "Who We Work With" section (NGOs, Government, Real Estate, Researchers)
+
+#### 2.3 Services
+- Three service category cards with expand/detail views:
+  1. **Flood & Environmental** — Flood Risk Mapping, Environmental Change Detection, Water Risk Analysis
+  2. **Land & Urban Planning** — Land Use/Cover Mapping, Site Suitability Analysis, Urban Expansion Analysis
+  3. **GIS Mapping & Data Support** — Map Design for Reports, Research & Thesis GIS Support, Spatial Data Analysis
+- Each service includes: description, sample deliverable image, key tools used
+
+#### 2.4 Interactive Map (GEE Flood Vulnerability Rater)
+- **Embedded Google Earth Engine application** showing the Volta Region flood susceptibility map
+- Layer toggles: Elevation, Slope, HAND, Flood Frequency, LULC, Distance to Water
+- Color-coded risk zones (green → yellow → red)
+- Click-to-query: user clicks a location and gets a flood vulnerability rating (Low/Medium/High)
+- Info panel explaining the 6 conditioning factors and methodology
+- Link to the full research paper / writing sample
+
+#### 2.5 Testimonials
+- Placeholder testimonial cards (3–4 entries) with:
+  - Client name, organization, role (placeholder)
+  - Quote text (placeholder)
+  - Star rating
+  - Project type tag
+- Carousel/slider layout
+- CTA: "Want to be our next success story?"
+
+#### 2.6 Pricing
+- Three-tier pricing cards:
+  1. **Basic** — Single map production, report-ready output
+  2. **Standard** — Multi-layer analysis, site suitability or flood mapping
+  3. **Premium** — Full project: data collection, analysis, interactive deliverables
+- "Custom Quote" option with contact form link
+- FAQ accordion (turnaround times, data requirements, revision policy)
+
+#### 2.7 Contact
+- Contact form (Name, Email, Organization, Service Interest dropdown, Message)
+- Direct contact info for both partners (email, phone)
+- Embedded Google Maps showing location (Cape Coast, Ghana)
+- Social links (LinkedIn, GitHub)
+
+---
+
+## 3. Design System
+
+### Color Palette (Dark Mode Primary)
+
+| Token | Value | Usage |
+|---|---|---|
+| `--bg-primary` | `#0f1117` | Page background |
+| `--bg-secondary` | `#1a1d27` | Card/section backgrounds |
+| `--bg-glass` | `rgba(26,29,39,0.7)` | Glassmorphism panels |
+| `--accent-green` | `#2ecc71` | Primary accent, CTAs |
+| `--accent-gold` | `#f0c040` | Highlights, ratings |
+| `--text-primary` | `#e8e8e8` | Body text |
+| `--text-secondary` | `#8b8fa3` | Muted text |
+| `--risk-low` | `#27ae60` | Map: low risk |
+| `--risk-medium` | `#f39c12` | Map: medium risk |
+| `--risk-high` | `#e74c3c` | Map: high risk |
+
+### Light Mode Toggle
+- Full light mode palette as alternate CSS custom properties
+- Toggle switch in navbar (sun/moon icon)
+- User preference saved in `localStorage`
+
+### Typography
+- **Headings:** `'Outfit', sans-serif` (Google Fonts)
+- **Body:** `'Inter', sans-serif` (Google Fonts)
+
+### UI Principles
+- Glassmorphism cards with `backdrop-filter: blur()`
+- Subtle gradient borders on hover
+- Micro-animations on scroll (fade-in, slide-up via Intersection Observer)
+- Smooth page transitions
+- Fully responsive (mobile-first breakpoints at 768px, 1024px, 1440px)
+
+---
+
+## 4. Tech Stack
+
+| Layer | Technology | Rationale |
+|---|---|---|
+| Structure | HTML5 | Semantic, accessible |
+| Styling | Vanilla CSS (custom properties) | Full control, no framework bloat |
+| Logic | Vanilla JavaScript (ES6+) | Dark mode, animations, form handling |
+| Maps | Google Earth Engine JS API (embedded) | Direct GEE app embed for flood map |
+| Fonts | Google Fonts (Outfit, Inter) | Modern, premium typography |
+| Icons | Lucide Icons (CDN) | Clean, consistent iconography |
+| Hosting | GitHub Pages (initial) | Free, version-controlled |
+| Forms | Formspree or EmailJS | Serverless contact form submission |
+
+> [!IMPORTANT]
+> No frameworks (React, Vue, etc.) needed for Phase 1. Pure HTML/CSS/JS keeps the site fast, simple to maintain, and easy for the client to update content.
+
+---
+
+## 5. Placeholder Content Strategy
+
+All placeholder content will be clearly marked with `<!-- PLACEHOLDER -->` HTML comments for easy find-and-replace later.
+
+| Content Type | Placeholder Approach | Replace When |
+|---|---|---|
+| Logo | Text-based "GeoResilience Hub" with CSS styling | Client provides logo file |
+| Team photos | AI-generated professional headshots | Client provides real photos |
+| Bios | Written from existing profile data | Client reviews and edits |
+| Testimonials | 4 fictional but realistic client quotes | Real testimonials received |
+| Pricing | Reasonable tier structure based on industry | Client confirms actual rates |
+| Service images | AI-generated geospatial visuals | Client provides project samples |
+| Stats | Approximate numbers | Client confirms real figures |
+
+---
+
+## 6. GEE Interactive Map — Technical Approach
+
+The centerpiece feature: an embedded Google Earth Engine flood vulnerability rater.
+
+### Implementation Options
+
+**Option A — GEE App Embed (Recommended for Phase 1)**
+- Build the flood susceptibility viewer as a GEE App via `ui.Map()` and `ui.Panel()`
+- Publish via `ee.apps` and embed in an `<iframe>` on the Maps page
+- Pros: Fastest to implement, uses existing GEE code
+- Cons: Limited custom styling, GEE UI constraints
+
+**Option B — Custom Leaflet/MapLibre + GEE Tiles (Phase 2)**
+- Export GEE layers as Cloud Optimized GeoTIFFs or tile services
+- Build custom map interface with Leaflet.js or MapLibre GL
+- Full UI control, custom popups, branded styling
+- More development time but superior UX
+
+### Map Features (Phase 1)
+- [x] Flood susceptibility layer (3-class: Low/Medium/High)
+- [x] Click-to-query vulnerability rating
+- [x] Layer toggle panel
+- [x] Legend with risk color coding
+- [x] Info panel with methodology summary
+- [ ] Town-level zoom insets (Phase 2)
+- [ ] Downloadable reports per location (Phase 2)
+
+---
+
+## 7. Time Estimate
+
+### Detailed Breakdown
+
+| Task | Description | Hours |
+|---|---|---|
+| **Design System Setup** | CSS custom properties, typography, color palette, dark/light mode toggle, base reset | 3 |
+| **Navbar & Footer** | Responsive nav with mobile hamburger, dark mode switch, footer with contacts/socials | 2.5 |
+| **Home Page** | Hero section, service cards, team teaser, stats counter, CTA sections, scroll animations | 5 |
+| **About Page** | Partner profiles, certifications grid, "Who We Work With" section | 3 |
+| **Services Page** | 3 service category cards with expandable details, sample images | 3.5 |
+| **Interactive Map Page** | GEE App build (adapt existing flood code to ui.Map), embed iframe, info panel | 6 |
+| **Testimonials Page** | Carousel/slider component, placeholder cards, star ratings | 2.5 |
+| **Pricing Page** | 3-tier cards, FAQ accordion, "Custom Quote" CTA | 3 |
+| **Contact Page** | Form with validation, Formspree/EmailJS integration, Google Maps embed | 3 |
+| **Image Generation** | Generate all placeholder visuals (hero, services, team, testimonials) | 2 |
+| **Responsive Polish** | Mobile/tablet breakpoints, touch interactions, cross-browser testing | 3 |
+| **Dark/Light Mode** | Full theme toggle with localStorage persistence, all pages tested | 1.5 |
+| **SEO & Meta** | Title tags, meta descriptions, Open Graph tags, semantic HTML audit | 1 |
+
+### Summary
+
+| Metric | Estimate |
+|---|---|
+| **Total Hours** | **38–48 hours** |
+| **Working Days (6–8 hrs/day)** | **5–7 days** |
+| **Calendar Days (realistic)** | **7–10 days** |
+
+> [!TIP]
+> The GEE Interactive Map is the single most complex component (~6 hours). If the existing GEE flood code is well-structured, this could come in closer to 4 hours. Everything else is standard web development.
+
+### Suggested Build Order
+
+```
+Day 1 ──► Design system + Navbar/Footer + Home page structure
+Day 2 ──► Home page polish + About page
+Day 3 ──► Services page + Pricing page
+Day 4 ──► Contact page + Testimonials page
+Day 5 ──► GEE Interactive Map (build + embed)
+Day 6 ──► Image generation + Responsive polish
+Day 7 ──► Dark/light mode testing + SEO + Final QA
+```
+
+---
+
+## 8. Phase 2 Roadmap (Future)
+
+Items deferred to Phase 2:
+
+- Custom MapLibre/Leaflet map replacing GEE iframe
+- Blog/Case Studies section
+- Real client testimonials with photos
+- Actual logo integration
+- Analytics (Google Analytics / Plausible)
+- Custom domain + hosting migration
+- PDF report generation from map queries
+- Multi-language support (English + local languages)
+
+---
+
+## 9. Decisions Needed from Client
+
+| # | Decision | Options |
+|---|---|---|
+| 1 | Logo file | PNG/SVG when ready |
+| 2 | Real team photos | Professional headshots preferred |
+| 3 | Confirm pricing tiers | Basic / Standard / Premium rates |
+| 4 | Contact form destination | Which email(s) receive submissions? |
+| 5 | Domain name | georesiliencehub.com? Other? |
+| 6 | Real testimonials | Client names, quotes, org names |
+| 7 | GEE account | Which Google account hosts the GEE App? |
+
+---
+
+> **Ready to build.** Approve this plan and we start with Day 1: Design System + Home Page.

@@ -1,0 +1,9 @@
+- [x] Establish formatting guidelines and layout parameters from official template
+- [x] Condense MPhil thesis findings into a structured outline
+- [x] Develop python compilation script (`scratch/compile_paper.py`)
+- [x] Set up two-column layout, margins, and custom styles using `python-docx`
+- [x] Write and integrate all 6 paper sections using verified metrics
+- [x] Create layout and numerical consistency verification script (`scratch/verify_paper.py`)
+- [x] Adjust abstract text to meet the 100-150 word limit (achieved 136 words)
+- [x] Execute and verify successful compilation of `GEOAI4SD_2026_EMMANUEL_YERBO.docx`
+- [x] Document project completion in `walkthrough.md`

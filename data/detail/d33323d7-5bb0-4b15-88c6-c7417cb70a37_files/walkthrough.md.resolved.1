@@ -1,0 +1,49 @@
+# Walkthrough: The Visual Academic Humanizer Dashboard
+
+I have completed the development of your **Visual Academic Humanizer Dashboard**. This is a premium, browser-based interface that allows you to upload research papers and humanize them visually without ever touching a line of code.
+
+## New Features
+
+### 1. Multi-Format File Support
+You can now drag and drop the following file types into the dashboard:
+- **PDF Documents:** Using the high-speed `PyMuPDF` engine.
+- **Word Documents:** Using the `python-docx` library.
+The dashboard automatically extracts the text and splits it into **paragraphs** for precise, one-by-one humanization.
+
+### 2. High-End Visual Interface
+The dashboard is built with **Streamlit** and includes:
+- **Real-Time Agent Logs:** See exactly what the "Extractor," "Humanizer," and "Verifier" agents are thinking as they work.
+- **Live Metrics Dashboard:** Tracks your **Burstiness Score** and the number of **Technical Entities Locked** in real-time.
+- **Side-by-Side Comparison:** View your original robotic paragraph next to the humanized result to verify the tone immediately.
+
+### 3. Efficiency & Cost
+- **Zero Disk Space:** All AI processing is still handled via Groq, so your laptop storage remains untouched.
+- **Paragraph-by-Paragraph Processing:** As per your request, the UI lets you select specific paragraphs to ensure the humanization is tailored to each section of your paper.
+
+---
+
+## How to Launch the Dashboard
+
+Since the `streamlit` command is not always in the Windows Path, you should use the following command to start your portal:
+
+1.  Open your terminal in the `CL` folder.
+2.  Run this command:
+    ```powershell
+    python -m streamlit run humanizer_app.py
+    ```
+3.  A new tab will automatically open in your web browser (Chrome or Edge) with your dashboard.
+
+---
+
+## Using the Dashboard
+1.  **Sidebar:** Ensure your Groq API key is present.
+2.  **Upload:** Drop your PDF or DOCX file.
+3.  **Select:** Choose the paragraph you want to transform from the dropdown menu.
+4.  **Run:** Click the big red **"Run Humanization Loop"** button.
+5.  **Review:** Watch the live logs and charts until the agent finds the perfect humanized balance!
+
+## Files Created
+- **[humanizer_app.py](file:///c:/YERBO/Desktop/cover%20leter/CL/humanizer_app.py)**: The main web application.
+- **[humanizer_agent.py](file:///c:/YERBO/Desktop/cover%20leter/CL/humanizer_agent.py)**: The underlying LangGraph agent logic (refactored for the UI).
+
+Your research humanization suite is now complete and professional-grade!

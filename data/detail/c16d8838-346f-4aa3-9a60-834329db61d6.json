@@ -6,7 +6,17 @@
     "created_at": "2026-04-30T00:59:13Z",
     "updated_at": "2026-04-30T01:25:22Z",
     "message_count": 46,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "Ghana_GIS_RS_Jobs_Guide.md",
+      "Ghana_GIS_RS_Jobs_Guide.md.metadata.json",
+      "Ghana_GIS_RS_Jobs_Guide.md.resolved",
+      "Ghana_GIS_RS_Jobs_Guide.md.resolved.0",
+      "GIS_RS_Geography_Graduate_Funding_Guide.md",
+      "GIS_RS_Geography_Graduate_Funding_Guide.md.metadata.json",
+      "GIS_RS_Geography_Graduate_Funding_Guide.md.resolved",
+      "GIS_RS_Geography_Graduate_Funding_Guide.md.resolved.0"
+    ]
   },
   "turns": [
     {

@@ -6,7 +6,23 @@
     "created_at": "2026-06-27T02:06:55Z",
     "updated_at": "2026-06-28T02:15:56Z",
     "message_count": 175,
-    "model_name": "Gemini 3.5 Flash / Claude Opus"
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "media__1782525969368.png",
+      "media__1782529694501.png",
+      "media__1782608852531.png",
+      "media__1782611240714.png",
+      "README_VIIRS_Ghana.md",
+      "README_VIIRS_Ghana.md.metadata.json",
+      "README_VIIRS_Ghana.md.resolved",
+      "README_VIIRS_Ghana.md.resolved.0",
+      "README_VIIRS_Ghana.md.resolved.1",
+      "viirs_ghana_nightlights_guide.md",
+      "viirs_ghana_nightlights_guide.md.metadata.json",
+      "viirs_ghana_nightlights_guide.md.resolved",
+      "viirs_ghana_nightlights_guide.md.resolved.0",
+      "viirs_ghana_nightlights_guide.md.resolved.1"
+    ]
   },
   "turns": [
     {

@@ -1,0 +1,6 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_OTHER",
+  "summary":  "Comprehensive synthesis of all revised 14-feature model results from the user's Colab runs. Compares old (16-feature) vs new (14-feature) model performance across training convergence, classification accuracy (96% → 98.7%), AOA coverage (87.48% for 2024, 77.78% for 2025), municipal area statistics, temporal change analysis, and nitrogen savings (45.2% → 19.5%). Includes a complete checklist of updates needed across Chapters 4, 5, and 6.",
+  "updatedAt":  "2026-06-23T14:17:29.073814800Z",
+  "requestFeedback":  true
+}

@@ -1,0 +1,6 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_WALKTHROUGH",
+  "summary":  "Detailed step-by-step implementation guide for Modules 5, 6, and 7 of the Cape Coast Urban Geomorphology project. \n\nModule 5 covers Spatiotemporal Relationship Analysis (RO3) including LULC-Slope and LULC-TWI overlay cross-tabulation, grid-cell zonal statistics, correlation analysis, and regression modeling.\n\nModule 6 covers Hazard Vulnerability Mapping (RO4) using the Multi-Criteria Weighted Overlay (AHP) method, mapping flood/landslide susceptibility, and calculating community exposure.\n\nModule 7 covers Policy & Management Synthesis, detailing sustainable urban drainage systems (SuDS), coastal defense strategies, zoning regulations, and final thesis mapping layouts.\n\nIncludes sample Python script for running spatial statistics and correlation analysis.",
+  "updatedAt":  "2026-07-04T01:46:14.063212Z",
+  "requestFeedback":  true
+}

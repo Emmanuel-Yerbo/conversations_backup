@@ -1,0 +1,32 @@
+# Implementation Plan - Literature PDF Downloader
+
+The goal is to provide you with a organized folder (`LITERATURE_RESOURCES`) containing the 20 verified academic papers. However, academic publishers have varying restrictions:
+- **Open Access**: I can automate the download of these using a script.
+- **Paywalled/Restricted**: Journals like *Science*, *Nature* (non-comm), or *IEEE* often require an institutional login or human interaction to bypass bot-detection. I will provide direct landing page links for these.
+
+## User Review Required
+
+> [!IMPORTANT]
+> Some papers require an institutional login (e.g., University of Ghana library access). For these, I will create a placeholder text file in the folder with the direct link so you can download them manually.
+
+## Proposed Changes
+
+### Research Documentation
+
+#### [NEW] [download_literature.py](file:///c:/YERBO/Desktop/Courage/precision%20agriculture/download_literature.py)
+- A Python script that:
+    1. Creates a `LITERATURE_RESOURCES` directory.
+    2. Downloads Open Access papers using direct URLs.
+    3. Generates a "MANUAL_DOWNLOAD_LINKS.txt" for paywalled content.
+
+### File Organization
+- The script will name the files concisely (e.g., `Study01_Biney_2022_Mining_Prestea.pdf`).
+
+## Verification Plan
+
+### Automated Verification
+- I will run the script and verify that the `LITERATURE_RESOURCES` directory contains valid files.
+- I will check the file size of the downloaded PDFs to ensure they are not 0KB (which would indicate a download failure).
+
+### Manual Verification
+- You will need to open the `MANUAL_DOWNLOAD_LINKS.txt` for the remaining ~8 papers that require your University credentials to access.
