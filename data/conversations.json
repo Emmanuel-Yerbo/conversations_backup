@@ -1,0 +1,371 @@
+[
+  {
+    "id": "b851f7ba-5192-46db-ba9a-b20fc708b850",
+    "title": "I WANT YOU TO COME UP WITH A SOLID PLAN TO CREATE A REPO ...",
+    "summary": "I WANT YOU TO COME UP WITH A SOLID PLAN TO CREATE A REPO FOR STORING ALL MY CONVERSTION WITH YOU (CONVERSATION HISTORY)",
+    "created_at": "2026-07-07T03:18:29Z",
+    "updated_at": "2026-07-07T03:44:22Z",
+    "message_count": 122,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "ad6d50a9-2e40-46d8-844c-61d07388fc96",
+    "title": "Finalizing GeoAI Research Pipeline",
+    "summary": "Discussion and execution of a GeoAI research pipeline for precision agriculture and landscape classifications in West Africa.",
+    "created_at": "2026-05-21T01:52:42Z",
+    "updated_at": "2026-07-06T16:27:18Z",
+    "message_count": 706,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "d33323d7-5bb0-4b15-88c6-c7417cb70a37",
+    "title": "Drafting Nunn Family Fellowship Application",
+    "summary": "Auditing and humanizing a research proposal for the Nunn Family Fellowship and University of Ghana MPhil program using an adversarial AI pipeline.",
+    "created_at": "2026-04-15T21:22:24Z",
+    "updated_at": "2026-07-05T01:09:55Z",
+    "message_count": 223,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "d3011edc-0e68-4460-85c5-8e57da2c2d6e",
+    "title": "Urban Geomorphology Implementation Framework",
+    "summary": "Developing framework files and processing spatial statistics for urban geomorphology studies.",
+    "created_at": "2026-06-24T11:59:09Z",
+    "updated_at": "2026-07-05T00:50:10Z",
+    "message_count": 198,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "caf87358-043e-4baf-94a7-670a55e7ed83",
+    "title": "Extracting Population Data for GIS",
+    "summary": "Extracting population statistics and GIS shapefiles for integration with spatial analysis models.",
+    "created_at": "2026-07-04T04:33:07Z",
+    "updated_at": "2026-07-04T17:42:20Z",
+    "message_count": 148,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "5703f06d-4e56-4f1f-b1ea-448fde4a937a",
+    "title": "Converting Literature To Word",
+    "summary": "Converting literature reviews, citations, and documents into Microsoft Word format with consistent academic styling.",
+    "created_at": "2026-05-13T11:17:21Z",
+    "updated_at": "2026-07-04T16:55:57Z",
+    "message_count": 208,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "a84c3bbd-98da-4b94-8165-29b18ab60865",
+    "title": "Web Development Asset Analysis",
+    "summary": "Analyzing assets, structure, and code systems for geographical interactive web applications.",
+    "created_at": "2026-07-03T00:36:47Z",
+    "updated_at": "2026-07-03T04:28:43Z",
+    "message_count": 317,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "51eed351-8f17-43e1-b404-f216f378b89e",
+    "title": "Term Paper Assignment Implementation",
+    "summary": "Developing lesson plans, slide decks, and materials for physics and biology curriculum assignments.",
+    "created_at": "2026-06-30T03:17:55Z",
+    "updated_at": "2026-07-01T03:28:12Z",
+    "message_count": 38,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "3dc196c6-417c-4087-b50e-9a5091cdf3f6",
+    "title": "Mapping Ghana Nighttime Lights",
+    "summary": "Processing satellite nighttime light datasets to map development indicators and urban growth in Ghana.",
+    "created_at": "2026-06-27T02:06:55Z",
+    "updated_at": "2026-06-28T02:15:56Z",
+    "message_count": 175,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "e6c389b1-859e-44c6-81f7-95fc5f49a888",
+    "title": "Esri Conference Abstract Development",
+    "summary": "Drafting and refining a conference abstract for submission to the annual Esri conference.",
+    "created_at": "2026-05-27T02:46:31Z",
+    "updated_at": "2026-06-27T01:55:04Z",
+    "message_count": 418,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "5ad3d26c-bbe1-4270-8d9f-b846d16e79c5",
+    "title": "I WANT TO PERFORM A COMPREHENSIVE LITERATURE REVIEW. I HA...",
+    "summary": "I WANT TO PERFORM A COMPREHENSIVE LITERATURE REVIEW. I HAVE A PYTHON SCRIPT THERE WHICH IS CALLED @[extract_all_pdfs.py] THERE IS ALSO A WORD DOCUMENT...",
+    "created_at": "2026-05-11T18:13:48Z",
+    "updated_at": "2026-06-23T11:07:21Z",
+    "message_count": 227,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "b75de5e0-8eac-448d-93c1-2d263e517c5c",
+    "title": "SATELLITE IMAGERY",
+    "summary": "SATELLITE IMAGERY Multi-temporal Landsat satellite imagery constituted the primary data source for this study, the Landsat programme, jointly managed...",
+    "created_at": "2026-06-18T14:07:13Z",
+    "updated_at": "2026-06-18T14:42:35Z",
+    "message_count": 45,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "b3e0fa85-5737-434d-ac3a-de155686790f",
+    "title": "the link to papers form",
+    "summary": "the link to papers form",
+    "created_at": "2026-06-16T15:17:40Z",
+    "updated_at": "2026-06-16T15:33:43Z",
+    "message_count": 30,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "b99248b5-fb58-4d30-afc2-ddce54e31976",
+    "title": "I WANT TO PERFORM A COMPREHENSIVE BRAINSTORMING PROCESS W...",
+    "summary": "I WANT TO PERFORM A COMPREHENSIVE BRAINSTORMING PROCESS WITH YOU. FIRST OF ALL I WANT YOU TO DO A THOROUGH ACADEMIC RESEARCH ON VISION TRANFORMER BASE...",
+    "created_at": "2026-06-16T02:41:10Z",
+    "updated_at": "2026-06-16T03:01:49Z",
+    "message_count": 20,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "f26b3743-4f2e-468b-9c31-49e838b68baa",
+    "title": "@PRECISION AGRICULTURE - FINAL.docx USE THE @journal-r...",
+    "summary": "@[PRECISION AGRICULTURE - FINAL.docx] USE THE @[journal-recommender.skill]",
+    "created_at": "2026-06-09T01:26:47Z",
+    "updated_at": "2026-06-12T01:29:48Z",
+    "message_count": 74,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "9c617379-871c-49f5-ab0d-e96cc2bb0387",
+    "title": "TWO PEOPLE, CREATE ONE I WILL GET THE LOGO FOR YOU LATER,...",
+    "summary": "TWO PEOPLE, CREATE ONE I WILL GET THE LOGO FOR YOU LATER, PAGES INITIALLY, CONTACT FOR  PRICING, MAPS, , GENERATE VISUALS FOR NOW, LATER CLIENT TESTIM...",
+    "created_at": "2026-05-11T04:33:05Z",
+    "updated_at": "2026-06-09T02:33:15Z",
+    "message_count": 546,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "f605686b-3317-4d3a-b3b3-49aa22b3286d",
+    "title": "Continue",
+    "summary": "Continue",
+    "created_at": "2026-05-27T01:26:14Z",
+    "updated_at": "2026-05-27T02:13:19Z",
+    "message_count": 41,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "98e271f4-edf4-4b21-ba27-23b9e1f0356c",
+    "title": "How to calibrate knapsack sprayer. THIS  IS AN ASSIGMENT ...",
+    "summary": "How to calibrate knapsack sprayer. THIS  IS AN ASSIGMENT THAT I HAVE BEEN GIVEN. I WANT YOU TO DO A THROROGH RESEARCH ONLINE AND WRITE A COMPREHENSIVE...",
+    "created_at": "2026-05-25T20:16:44Z",
+    "updated_at": "2026-05-25T20:30:31Z",
+    "message_count": 21,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "4611b590-0843-45a8-862a-cb14ac3ed76a",
+    "title": "update the changes to github",
+    "summary": "update the changes to github",
+    "created_at": "2026-05-25T02:33:40Z",
+    "updated_at": "2026-05-25T02:34:49Z",
+    "message_count": 14,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "c511e521-3ada-43c7-9319-dadb6a3ed6b7",
+    "title": "I WANTO WRITE A COMPREHENSIVE METHODOGY ON MY LAND USE LA...",
+    "summary": "I WANTO WRITE A COMPREHENSIVE METHODOGY ON MY LAND USE LAND COVER CHANGE PROJECT. THE DATA WAS SOURCED FROM LANDSAT(GEE), PREPROCESSED, TRAINING SAMPL...",
+    "created_at": "2026-05-19T02:28:51Z",
+    "updated_at": "2026-05-21T02:30:59Z",
+    "message_count": 46,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "b52cba15-6342-420b-9aeb-cc6c34571ea5",
+    "title": "how do i switch to the full agent workspace first the sho...",
+    "summary": "how do i switch to the full agent workspace first the shortcut was ctrl + e but it is not working now",
+    "created_at": "2026-05-20T12:16:08Z",
+    "updated_at": "2026-05-20T12:25:13Z",
+    "message_count": 31,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "34caa434-b89a-4d0f-beb1-a0e500fa71b2",
+    "title": "Editing Project Documents",
+    "summary": "Editing research statements, cover letters, and project writeups for pedestrian safety and geodjango blueprints.",
+    "created_at": "2026-05-20T03:15:32Z",
+    "updated_at": "2026-05-20T03:17:43Z",
+    "message_count": 7,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "a80652a2-3f6f-407e-a81b-f67cdcbec7ad",
+    "title": "GeoAI Faculty Outreach Strategy",
+    "summary": "Strategizing academic outreach for GeoAI research positions, aligning skills with faculty member profiles, and drafting high-impact cold emails.",
+    "created_at": "2026-03-29T02:36:18Z",
+    "updated_at": "2026-05-20T01:18:16Z",
+    "message_count": 703,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "eae92fa2-ee63-4a65-86e4-3d984276062e",
+    "title": "read the word docuemtn. and tell me what you see based on...",
+    "summary": "read the word docuemtn. and tell me what you see based onthe topic and how it can be improved",
+    "created_at": "2026-05-19T02:59:11Z",
+    "updated_at": "2026-05-19T03:26:35Z",
+    "message_count": 38,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "5070a24a-d046-4faa-8903-840528f5d25f",
+    "title": "SUMMARIZE OUR LAST CONVERSTAION",
+    "summary": "SUMMARIZE OUR LAST CONVERSTAION",
+    "created_at": "2026-05-12T13:48:05Z",
+    "updated_at": "2026-05-15T14:36:24Z",
+    "message_count": 4,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "7a190a51-6131-485c-a15c-806e245eba12",
+    "title": "based on my transcript list all the remote sensing and gi...",
+    "summary": "based on my transcript list all the remote sensing and gis course that i idid",
+    "created_at": "2026-05-13T10:36:31Z",
+    "updated_at": "2026-05-13T10:37:17Z",
+    "message_count": 2,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "4cbf308d-ec5b-4b8b-8165-915ad5e2d3d2",
+    "title": "REVIEW THE IMAGE AND THE DOCEMENT BELOW. I WANT TO BUILD ...",
+    "summary": "REVIEW THE IMAGE AND THE DOCEMENT BELOW. I WANT TO BUILD I WEBSITE FOR IT. AFTER REVIEW DRAFT A COMPREHENSIVE BRAINING ARTEFACTS SO THAT WE CAN REVIEW...",
+    "created_at": "2026-05-11T04:08:52Z",
+    "updated_at": "2026-05-11T04:18:35Z",
+    "message_count": 11,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "fe83dea6-6867-46f8-8536-da64556b6bb3",
+    "title": "REWRITE IT AND INCLUDES ALL THE SUGGESTION YOU HAVE PROPO...",
+    "summary": "REWRITE IT AND INCLUDES ALL THE SUGGESTION YOU HAVE PROPOSED. I DO NOT HAVE TIME AND I AM TO SUBMIT IN LESS THAN FIVE MINUTES",
+    "created_at": "2026-05-07T15:52:15Z",
+    "updated_at": "2026-05-07T16:10:30Z",
+    "message_count": 24,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "bf6ccf8c-c9a8-41f6-8f72-d9db8b7bceef",
+    "title": "I AM INTERESTED IN PERFORMING GEOAI WITH OSM DATA  OSM, ...",
+    "summary": "I AM INTERESTED IN PERFORMING GEOAI WITH OSM DATA [ OSM, NETWORKX], I WANT TO KNOW THE KINDS OF PROBLEMS I CAN SOLVE USING PYTORCH THROUGH COLAB OF KA...",
+    "created_at": "2026-04-27T01:09:13Z",
+    "updated_at": "2026-05-05T02:06:33Z",
+    "message_count": 41,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "d5c78227-555f-4695-bab5-64a55ac99822",
+    "title": "do you remember any conversation we had about road accident",
+    "summary": "do you remember any conversation we had about road accident",
+    "created_at": "2026-05-05T02:00:52Z",
+    "updated_at": "2026-05-05T02:02:24Z",
+    "message_count": 10,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "4f931ce2-ad6e-49e4-b2c9-22049f04955d",
+    "title": "sap",
+    "summary": "sap",
+    "created_at": "2026-05-05T01:04:02Z",
+    "updated_at": "2026-05-05T01:04:02Z",
+    "message_count": 2,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "03b34727-b726-4f6b-90c6-dbb812ad09ce",
+    "title": "I WANT TO LEARN WEBGIS. FIRST OF ALL LET BRAINSTORM THORO...",
+    "summary": "I WANT TO LEARN WEBGIS. FIRST OF ALL LET BRAINSTORM THOROUGHLY THROUGH WHAT CAN BE DONE. DO SOME RESEAERCH ONLINE AND COME OUT WITH SOMETHING TO HELP...",
+    "created_at": "2026-05-02T02:10:34Z",
+    "updated_at": "2026-05-02T03:41:16Z",
+    "message_count": 53,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "74acbf0d-9e2e-469d-9e16-436cf73bb673",
+    "title": "THE QUESTION IS REASONS AFRICA IS THE LEAST CONTRIBUTOR T...",
+    "summary": "THE QUESTION IS REASONS AFRICA IS THE LEAST CONTRIBUTOR TO CLIMATE CHANGE BUT IT IS THE ONE MOST AFFECTED. LOOK THE WORD DOCUMENT PROVIDED. REVIEW IT...",
+    "created_at": "2026-05-01T18:57:06Z",
+    "updated_at": "2026-05-01T19:09:16Z",
+    "message_count": 17,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "e338bfd1-f065-4212-9ed7-df03146e14fd",
+    "title": "@UPDATE_MPHIL_REVISED_PROPOSAL.docxPER THE https://acca...",
+    "summary": "@[UPDATE_MPHIL_REVISED_PROPOSAL.docx]PER THE https://accapp.ug.edu.gh/landing, THE PROPROPOSAL SHOULD BE A SUMMARY OF 500 WORDS. TIMELINE AND BUDGET H...",
+    "created_at": "2026-05-01T18:08:04Z",
+    "updated_at": "2026-05-01T18:15:23Z",
+    "message_count": 13,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "ec2655b3-b16a-4e6c-b5c1-50ef20808982",
+    "title": "how can i  improve on this portforlio website",
+    "summary": "how can i  improve on this portforlio website",
+    "created_at": "2026-04-28T01:52:17Z",
+    "updated_at": "2026-04-30T15:29:28Z",
+    "message_count": 93,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "c16d8838-346f-4aa3-9a60-834329db61d6",
+    "title": "i want you to scavenger on current gis, rs and geography ...",
+    "summary": "i want you to scavenger on current gis, rs and geography related TA, RA AND SCHOLARSHIPES AVAILABLE CURRENTLY FOR GRADUATE STUDIES",
+    "created_at": "2026-04-30T00:59:13Z",
+    "updated_at": "2026-04-30T01:25:22Z",
+    "message_count": 46,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "5d5665e5-2368-42b4-946f-f94b2b50502a",
+    "title": "based on the on the research we are conducting which is b...",
+    "summary": "based on the on the research we are conducting which is based on this directory. provide 3 most moderned based geoai based thesis topic",
+    "created_at": "2026-04-28T00:57:41Z",
+    "updated_at": "2026-04-28T01:51:01Z",
+    "message_count": 38,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "1aa72c50-03dd-418b-ac6e-52863d3cbe5a",
+    "title": "forget all that we have done inside this directory. and l...",
+    "summary": "forget all that we have done inside this directory. and lets explore the source excel data and accessing portable water implication on livehood datase...",
+    "created_at": "2026-04-24T11:04:53Z",
+    "updated_at": "2026-04-24T14:42:15Z",
+    "message_count": 115,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "42fea9e3-feb6-477e-a964-51d8f87b5089",
+    "title": "LETS CONTINUE",
+    "summary": "LETS CONTINUE",
+    "created_at": "2026-04-23T13:55:00Z",
+    "updated_at": "2026-04-23T17:41:16Z",
+    "message_count": 61,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "a847b77a-69a6-4812-b917-53afb4497a75",
+    "title": "I AM INTERESTED IN CONDUCTING RESEACH ON EXPLANABLE AI BA...",
+    "summary": "I AM INTERESTED IN CONDUCTING RESEACH ON EXPLANABLE AI BASED LAND USE LAND COVER CLASSIFICATION IN GHANA. BUT FIRST OF ALL LETS BRAINSTORM WHAT GOES I...",
+    "created_at": "2026-04-23T12:41:33Z",
+    "updated_at": "2026-04-23T14:28:27Z",
+    "message_count": 16,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  {
+    "id": "6d5c966c-b8c5-4437-83c6-e8af09496361",
+    "title": "I WANT TO IMPLEMENT A NIGHT TIME LIGHT VISUALIZATION OF A...",
+    "summary": "I WANT TO IMPLEMENT A NIGHT TIME LIGHT VISUALIZATION OF ACCRA METROPOLIS IN GHANA. USIG https://www.earthdata.nasa.gov/data/instruments/viirs. LETS BR...",
+    "created_at": "2026-04-22T13:58:51Z",
+    "updated_at": "2026-04-23T12:23:27Z",
+    "message_count": 35,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  }
+]

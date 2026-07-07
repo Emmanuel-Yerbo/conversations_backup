@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "id": "7a190a51-6131-485c-a15c-806e245eba12",
+    "title": "based on my transcript list all the remote sensing and gi...",
+    "summary": "based on my transcript list all the remote sensing and gis course that i idid",
+    "created_at": "2026-05-13T10:36:31Z",
+    "updated_at": "2026-05-13T10:37:17Z",
+    "message_count": 2,
+    "model_name": "Gemini 3.5 Flash / Claude Opus"
+  },
+  "turns": [
+    {
+      "role": "user",
+      "time": "2026-05-13T10:36:31Z",
+      "content": "based on my transcript list all the remote sensing and gis course that i idid",
+      "raw_content": "<USER_REQUEST>\nbased on my transcript list all the remote sensing and gis course that i idid \n</USER_REQUEST>\n<ADDITIONAL_METADATA>\nThe current local time is: 2026-05-13T10:36:31Z.\n\nThe user's current state is as follows:\nActive Document: c:\\YERBO\\Desktop\\CODING\\GEOLEARNING\\GeoResilienceHub\\index.html (LANGUAGE_HTML)\nCursor is on line: 1\nOther open documents:\n- c:\\YERBO\\Desktop\\CODING\\GEOLEARNING\\GeoResilienceHub\\index.html (LANGUAGE_HTML)\n- c:\\YERBO\\Desktop\\CODING\\GEOLEARNING\\GeoResilienceHub\\.gitignore (LANGUAGE_UNSPECIFIED)\n- c:\\YERBO\\Desktop\\CODING\\GEOLEARNING\\GEORESILIENCE_HUB_IMPLEMENTATION_PLAN.md (LANGUAGE_MARKDOWN)\n- c:\\YERBO\\Desktop\\CODING\\GEOLEARNING\\GeoResilienceHub\\map.html (LANGUAGE_HTML)\n- c:\\YERBO\\Desktop\\CODING\\GEOLEARNING\\GeoResilienceHub\\testimonials.html (LANGUAGE_HTML)\nNo browser pages are currently open.\n</ADDITIONAL_METADATA>\n<USER_SETTINGS_CHANGE>\n<truncated 266 bytes>"
+    },
+    {
+      "role": "assistant",
+      "time": "2026-05-13T10:37:17Z",
+      "content": "[Response Cleared]",
+      "tools": [
+        {
+          "name": "list_dir",
+          "target": ""
+        }
+      ]
+    }
+  ]
+}
