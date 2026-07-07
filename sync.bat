@@ -17,12 +17,22 @@ if %ERRORLEVEL% NEQ 0 (
 echo.
 echo Sync completed successfully!
 echo.
+
+:: Auto Git upload
+echo Auto-committing and pushing updates to GitHub...
+git add .
+git commit -m "Auto-sync conversation history: %date% %time%"
+git push
+if %ERRORLEVEL% NEQ 0 (
+    echo.
+    echo [WARNING] Git push failed. You may need to authenticate or check your network.
+) else (
+    echo.
+    echo [SUCCESS] Successfully pushed updates to GitHub!
+)
+
+echo.
 echo Opening Dashboard in your browser...
 start "" "%~dp0dashboard\index.html"
-echo.
-echo If you have initialized Git, you can push changes by running:
-echo git add .
-echo git commit -m "Sync conversation history"
-echo git push
 echo.
 pause
