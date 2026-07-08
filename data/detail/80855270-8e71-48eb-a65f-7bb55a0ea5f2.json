@@ -1,0 +1,31 @@
+{
+  "metadata": {
+    "id": "80855270-8e71-48eb-a65f-7bb55a0ea5f2",
+    "title": "aize Cropping Guide: 4R Nutrient Management and Best Agro...",
+    "summary": "aize Cropping Guide: 4R Nutrient Management and Best Agronomic Practices (Published by the African Plant Nutrition Institute (APNI) in collaboration w...",
+    "created_at": "2026-07-07T10:36:57Z",
+    "updated_at": "2026-07-07T10:36:57Z",
+    "message_count": 2,
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": []
+  },
+  "turns": [
+    {
+      "role": "user",
+      "time": "2026-07-07T10:36:57Z",
+      "content": "aize Cropping Guide: 4R Nutrient Management and Best Agronomic Practices (Published by the African Plant Nutrition Institute (APNI) in collaboration with CSIR).",
+      "raw_content": "<USER_REQUEST>\naize Cropping Guide: 4R Nutrient Management and Best Agronomic Practices (Published by the African Plant Nutrition Institute (APNI) in collaboration with CSIR).\n</USER_REQUEST>\n<ADDITIONAL_METADATA>\nThe current local time is: 2026-07-07T10:36:57Z.\n\nThe user's current state is as follows:\nOther open documents:\n- c:\\YERBO\\Desktop\\cover leter\\CL\\Nunn_Fellowship_Cover_Letter.md (LANGUAGE_MARKDOWN)\n- c:\\YERBO\\Desktop\\cover leter\\CL\\GIS_Specialist_Application_Strategy.md (LANGUAGE_MARKDOWN)\n- c:\\YERBO\\Desktop\\cover leter\\CL\\humanizer_app.py (LANGUAGE_PYTHON)\n- c:\\YERBO\\Desktop\\cover leter\\CL\\humanizer_agent.py (LANGUAGE_PYTHON)\n- c:\\YERBO\\Desktop\\cover leter\\CL\\Academic_Humanizer_Agent_Workflow.md (LANGUAGE_MARKDOWN)\nNo browser pages are currently open.\n</ADDITIONAL_METADATA>\n<USER_SETTINGS_CHANGE>\n<truncated 268 bytes>"
+    },
+    {
+      "role": "assistant",
+      "time": "2026-07-07T10:36:57Z",
+      "content": "[Response Cleared]",
+      "tools": [
+        {
+          "name": "list_dir",
+          "target": ""
+        }
+      ]
+    }
+  ]
+}

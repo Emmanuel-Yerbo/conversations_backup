@@ -4,8 +4,8 @@
     "title": "I WANT YOU TO COME UP WITH A SOLID PLAN TO CREATE A REPO ...",
     "summary": "I WANT YOU TO COME UP WITH A SOLID PLAN TO CREATE A REPO FOR STORING ALL MY CONVERSTION WITH YOU (CONVERSATION HISTORY)",
     "created_at": "2026-07-07T03:18:29Z",
-    "updated_at": "2026-07-07T03:54:24Z",
-    "message_count": 153,
+    "updated_at": "2026-07-08T16:57:56Z",
+    "message_count": 228,
     "model_name": "Gemini 3.5 Flash / Claude Opus",
     "artifacts": []
   },
@@ -13,9 +13,9 @@
     "id": "ad6d50a9-2e40-46d8-844c-61d07388fc96",
     "title": "Finalizing GeoAI Research Pipeline",
     "summary": "Discussion and execution of a GeoAI research pipeline for precision agriculture and landscape classifications in West Africa.",
-    "created_at": "2026-05-21T01:52:42Z",
-    "updated_at": "2026-07-06T16:27:18Z",
-    "message_count": 706,
+    "created_at": "2026-06-25T02:37:03Z",
+    "updated_at": "2026-07-08T16:42:42Z",
+    "message_count": 620,
     "model_name": "Gemini 3.5 Flash / Claude Opus",
     "artifacts": [
       "acci_fellowship_details_1776476092516.webp",
@@ -49,6 +49,7 @@
       "critical_review.md.metadata.json",
       "critical_review.md.resolved",
       "critical_review.md.resolved.0",
+      "geoai4sd_logo_1783509334083.png",
       "implementation_plan.md",
       "implementation_plan.md.metadata.json",
       "implementation_plan.md.resolved",
@@ -65,6 +66,13 @@
       "media__1782223967686.png",
       "media__1782354698185.png",
       "media__1783340008507.png",
+      "media__1783509555806.png",
+      "media__1783512270088.png",
+      "media__1783514810218.png",
+      "media__1783514845500.png",
+      "media__1783514863187.png",
+      "media__1783521129923.png",
+      "media__1783527594814.png",
       "NDVI_AOA_SYNTHESIS.md",
       "NDVI_AOA_SYNTHESIS.md.metadata.json",
       "NDVI_AOA_SYNTHESIS.md.resolved",
@@ -74,7 +82,12 @@
       "notebook_upgrade_plan.md.resolved",
       "notebook_upgrade_plan.md.resolved.0",
       "notebook_upgrade_plan.md.resolved.1",
+      "open_geoai4sd_site_1783508857805.webp",
       "pipeline_overview_1776860869051.png",
+      "presentation_speaker_notes.md",
+      "presentation_speaker_notes.md.metadata.json",
+      "presentation_speaker_notes.md.resolved",
+      "presentation_speaker_notes.md.resolved.0",
       "proposal_audit.md",
       "proposal_audit.md.metadata.json",
       "proposal_audit.md.resolved",
@@ -115,6 +128,30 @@
       "walkthrough.md.resolved.3",
       "workflow_page1.png"
     ]
+  },
+  {
+    "id": "e6c389b1-859e-44c6-81f7-95fc5f49a888",
+    "title": "Esri Conference Abstract Development",
+    "summary": "Drafting and refining a conference abstract for submission to the annual Esri conference.",
+    "created_at": "2026-05-27T02:46:31Z",
+    "updated_at": "2026-07-07T16:07:07Z",
+    "message_count": 441,
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": [
+      "google_colab_loaded_1780018881894.png",
+      "media__1780017873060.jpg",
+      "open_google_colab_1780018855942.webp"
+    ]
+  },
+  {
+    "id": "80855270-8e71-48eb-a65f-7bb55a0ea5f2",
+    "title": "aize Cropping Guide: 4R Nutrient Management and Best Agro...",
+    "summary": "aize Cropping Guide: 4R Nutrient Management and Best Agronomic Practices (Published by the African Plant Nutrition Institute (APNI) in collaboration w...",
+    "created_at": "2026-07-07T10:36:57Z",
+    "updated_at": "2026-07-07T10:36:57Z",
+    "message_count": 2,
+    "model_name": "Gemini 3.5 Flash / Claude Opus",
+    "artifacts": []
   },
   {
     "id": "d33323d7-5bb0-4b15-88c6-c7417cb70a37",
@@ -284,20 +321,6 @@
       "viirs_ghana_nightlights_guide.md.resolved",
       "viirs_ghana_nightlights_guide.md.resolved.0",
       "viirs_ghana_nightlights_guide.md.resolved.1"
-    ]
-  },
-  {
-    "id": "e6c389b1-859e-44c6-81f7-95fc5f49a888",
-    "title": "Esri Conference Abstract Development",
-    "summary": "Drafting and refining a conference abstract for submission to the annual Esri conference.",
-    "created_at": "2026-05-27T02:46:31Z",
-    "updated_at": "2026-06-27T01:55:04Z",
-    "message_count": 418,
-    "model_name": "Gemini 3.5 Flash / Claude Opus",
-    "artifacts": [
-      "google_colab_loaded_1780018881894.png",
-      "media__1780017873060.jpg",
-      "open_google_colab_1780018855942.webp"
     ]
   },
   {
