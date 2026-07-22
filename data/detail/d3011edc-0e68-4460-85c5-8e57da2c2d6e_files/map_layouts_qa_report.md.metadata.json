@@ -1,0 +1,6 @@
+{
+  "artifactType":  "ARTIFACT_TYPE_WALKTHROUGH",
+  "summary":  "Detailed cartographical quality assurance (QA) report for 5 ArcGIS Pro map layouts exported by the user. Identifies issues like missing scale bars, north arrows, typos (Vegeation), overlapping labels, and software interface artifacts. Offers clear correction steps.",
+  "updatedAt":  "2026-07-13T00:50:47.139099Z",
+  "requestFeedback":  true
+}

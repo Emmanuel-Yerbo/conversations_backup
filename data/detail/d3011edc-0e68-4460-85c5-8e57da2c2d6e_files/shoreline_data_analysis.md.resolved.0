@@ -1,0 +1,79 @@
+# Shoreline Change Data Analysis Report
+*Cape Coast Coastline Dynamics (2000 – 2023)*
+
+This report provides a comprehensive analysis of the two shapefiles located in your `rate_of change` folder: `SHORE.shp` (annual shorelines) and `CHANTE_STATS.shp` (shoreline change rates and statistics).
+
+---
+
+## 1. Dataset Summary & Structure
+
+### A. Annual Shorelines (`SHORE.shp`)
+* **Geometry Type:** LineString and MultiLineString
+* **Feature Count:** 37 features
+* **Temporal Coverage:** 24 years (Annual shorelines from **2000 to 2023**)
+* **Coordinate System:** WGS 1984 (Geographic Coordinates, EPSG:4326)
+* **Key Attributes:**
+  * `year`: The specific year of the shoreline (2000 to 2023).
+  * `certainty`: Data quality flag (`good`, `unstable data`, or `insufficient data`).
+  * `tide_datum`: Tidal datum utilized (0 m Mean Sea Level).
+
+### B. Shoreline Change Statistics (`CHANTE_STATS.shp`)
+* **Geometry Type:** Point (187 transect measurement points spaced along the coast)
+* **Feature Count:** 187 points
+* **Coordinate System:** WGS 1984 (EPSG:4326)
+* **Key Attributes:**
+  * `rate_time`: Shoreline change rate (meters per year). Represents the overall linear trend over time.
+  * `nsm` (Net Shoreline Movement): The net distance between the oldest (2000) and newest (2023) shorelines.
+  * `sce` (Shoreline Change Envelope): The total envelope of shoreline movement (maximum horizontal distance between all shorelines, regardless of year).
+  * `dist_2000` to `dist_2022`: Shoreline positions (distances from a baseline) for each specific year.
+
+---
+
+## 2. Statistical Findings
+
+A statistical query of the 187 transect points shows the following shoreline dynamics:
+
+### General Shoreline Stability Metrics
+| Parameter | Value | Interpretation |
+|---|---|---|
+| **Total Transect Points** | 187 | Spatial points analyzed along the Cape Coast strip |
+| **Eroding Transects (< 0 m/yr)** | **98 (52.4%)** | More than half of the coastline is undergoing erosion |
+| **Accreting Transects (> 0 m/yr)** | **89 (47.6%)** | Just under half of the coastline is accreting or building outward |
+| **Stable Transects (0 m/yr)** | **0 (0.0%)** | The entire coastline is highly active |
+
+### Rate of Change Metrics (`rate_time` / LRR)
+* **Mean Rate of Change:** **`+0.03 m/yr`** (Virtually stable overall, but mask high localized variability).
+* **Maximum Erosion Rate:** **`-1.26 m/yr`** (High erosion zone).
+* **Maximum Accretion Rate:** **`+1.53 m/yr`** (High accretion zone, likely at sand spits, deposition zones, or hard engineering structures).
+
+### Shoreline Shift Metrics (NSM & SCE)
+* **Mean Net Shoreline Movement (NSM):** **`+2.19 meters`** (Average net seaward shift over 24 years).
+* **Maximum Landward Shift (Net Erosion):** **`-23.55 meters`** (Maximum land lost at a single transect).
+* **Maximum Seaward Shift (Net Accretion):** **`+84.33 meters`** (Significant deposition or structural reclamation).
+* **Mean Shoreline Change Envelope (SCE):** **`23.07 meters`** (Average band of annual shoreline fluctuation).
+* **Maximum Shoreline Change Envelope (SCE):** **`44.74 meters`** (Max range of shoreline movement).
+
+---
+
+## 3. Visualizations
+
+Here are the plotted geometries for the two shapefiles.
+
+### Annual Shorelines Geometries
+This map shows the spatial trace of the 37 shoreline segments from 2000 to 2023.
+![SHORE Plot](file:///C:/Users/LENOVO/.gemini/antigravity/brain/d3011edc-0e68-4460-85c5-8e57da2c2d6e/shore_plot.png)
+
+### Transect Change Rates Geometries
+This map displays the 187 point locations where the rates of change (`rate_time`) and yearly distance values were measured.
+![CHANTE_STATS Plot](file:///C:/Users/LENOVO/.gemini/antigravity/brain/d3011edc-0e68-4460-85c5-8e57da2c2d6e/chante_stats_plot.png)
+
+---
+
+## 4. Thesis Recommendations & Next Steps
+
+This dataset is perfect for your **Objective 2 (Mapping Geomorphic Features)** and **Objective 3 (Spatiotemporal Relationships)**:
+
+1. **Objective 2 (Shoreline Change Rate):** 
+   You can report that the Cape Coast shoreline is split: **52.4% is eroding** (max rate: $-1.26\text{ m/yr}$) and **47.6% is accreting** (max rate: $+1.53\text{ m/yr}$). The mean rate of change is $+0.03\text{ m/yr}$.
+2. **Objective 3 (Overlay with LULC):** 
+   We can overlay these 187 transects with your LULC maps to see if areas with high urban built-up expansion near the coast correlate with higher shoreline erosion rates (due to destruction of natural sand buffers, seawall construction, or runoff).

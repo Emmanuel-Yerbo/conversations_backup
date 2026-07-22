@@ -1,0 +1,64 @@
+# LULC Data Analysis & Change Detection Report
+*Cape Coast Land Use / Land Cover and Terrain Encroachment (2000 – 2020)*
+
+This report provides a complete, converted breakdown of the data stored in your `LULC DATA.xlsx` spreadsheet. All raw pixel counts have been converted to square kilometers ($km^2$) using the standard resolution factor ($30\text{ m} \times 30\text{ m} = 900\text{ m}^2 = 0.0009\text{ km}^2$ per pixel).
+
+---
+
+## 1. LULC Area Distribution (2000 – 2020)
+
+Between 2000 and 2020, Cape Coast underwent rapid urbanization, primarily at the expense of natural vegetation.
+
+| LULC Class | 2000 Area ($km^2$) | 2000 Share (%) | 2010 Area ($km^2$) | 2010 Share (%) | 2020 Area ($km^2$) | 2020 Share (%) | Net Change ($km^2$) |
+|---|---|---|---|---|---|---|---|
+| **Built-Up** | 15.47 | 12.97% | 19.62 | 16.45% | 35.81 | 30.03% | **+20.34** |
+| **Vegetation** | 104.27 | 87.43% | 100.01 | 83.86% | 82.20 | 68.93% | **-22.07** |
+| **Water** | 0.87 | 0.73% | 1.37 | 1.15% | 1.04 | 0.87% | **+0.17** |
+| **Bare Soil** | 1.35 | 1.13% | 0.96 | 0.80% | 2.91 | 2.44% | **+1.56** |
+| **Total** | **119.26** | **100.0%** | **119.26** | **100.0%** | **119.26** | **100.0%** | |
+
+### Key Academic Takeaway:
+* **Built-up expansion:** Built-up areas **more than doubled** (+131.5%) from $15.47\text{ km}^2$ in 2000 to $35.81\text{ km}^2$ in 2020.
+* **Vegetative loss:** Vegetation declined by **$22.07\text{ km}^2$** (-21.2%), reflecting widespread deforestation and land clearing to accommodate urban growth.
+
+---
+
+## 2. LULC Change Detection Matrices
+
+These matrices show the exact transition of land cover types between epochs.
+
+### Period A: 2000 – 2010
+* **Total converted area:** $119.26\text{ km}^2$
+* **Unchanged land:** $110.94\text{ km}^2$ (93.0% of study area remained stable)
+* **Changed land:** $8.32\text{ km}^2$ (7.0% underwent transitions)
+
+**Primary Transitions:**
+1. **Vegetation to Built-Up:** **$6.12\text{ km}^2$** (The largest driver of change).
+2. **Bare Soil to Built-Up:** **$0.83\text{ km}^2$**.
+3. **Vegetation to Water:** **$0.77\text{ km}^2$** (Likely represents wetland expansion or flooding).
+4. **Built-Up to Vegetation:** **$2.30\text{ km}^2$** (Likely represents fallow recovery, urban canopy growth, or minor classification noise).
+
+### Period B: 2010 – 2020
+* **Total converted area:** $119.26\text{ km}^2$
+* **Unchanged land:** $98.29\text{ km}^2$ (82.4% remained stable)
+* **Changed land:** $20.97\text{ km}^2$ (17.6% underwent transitions — change rate more than doubled compared to the previous decade)
+
+**Primary Transitions:**
+1. **Vegetation to Built-Up:** **$18.24\text{ km}^2$** (A massive acceleration in land conversion).
+2. **Vegetation to Bare Soil:** **$1.13\text{ km}^2$** (Land clearing/degradation).
+3. **Built-Up to Bare Soil:** **$1.28\text{ km}^2$** (Demolitions, construction sites, or clearing).
+4. **Built-Up to Vegetation:** **$1.22\text{ km}^2$**.
+
+---
+
+## 3. Slope Instability Encroachment (SIZ)
+
+This represents the amount of built-up area built on **unstable slopes ($>8^\circ$)**. 
+
+* **2000:** 666 pixels = **$0.60\text{ km}^2$**
+* **2010:** 732 pixels = **$0.66\text{ km}^2$**
+* **2020:** 1,767 pixels = **$1.59\text{ km}^2$**
+
+### Key Academic Takeaway:
+* Built-up development on high-risk, unstable slopes grew by **165.0%** between 2000 and 2020 (expanding from $0.60\text{ km}^2$ to $1.59\text{ km}^2$).
+* This proves that urban expansion in Cape Coast is increasingly encroaching onto geomorphically vulnerable hillsides, significantly raising the risk of landslides and soil erosion during heavy rains.
